@@ -1,11 +1,34 @@
 ---
-title: "sta701S-f23"
+title: "STA 701S 2023-24"
 ---
 
-This is a Quarto website.
+**Time**: Mondays 11:45 - 1:00 pm
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+**Place**: Reuben-Cooke Building 130
 
-```{r}
-1 + 1
+## 
+
+```{r, echo=FALSE, include=FALSE}
+library(googlesheets4)
+gs4_auth(email="merlise.clyde@gmail.com")
+```
+
+```{r, echo=FALSE, message=FALSE, results='hide'}
+schedule.Fall = read_sheet('https://docs.google.com/spreadsheets/d/1RI5q4TM3cUH52WXezd26vLtf9WHF1nakXe2zLTmXJKc', sheet="Fall")
+
+schedule.Spring = read_sheet('https://docs.google.com/spreadsheets/d/1RI5q4TM3cUH52WXezd26vLtf9WHF1nakXe2zLTmXJKc', sheet="Spring")
+```
+
+## Fall Schedule
+
+```{r fall, echo=FALSE}
+options(knitr.kable.NA = '')
+knitr::kable(schedule.Fall)
+```
+
+## Spring Schedule
+
+```{r spring, echo=FALSE}
+knitr::kable(schedule.Spring)
+
 ```
