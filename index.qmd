@@ -16,7 +16,9 @@ gs4_auth(email="merlise.clyde@gmail.com")
 ```
 
 ```{r, echo=FALSE, message=FALSE, results='hide'}
+gs4_deauth()
 schedule.Fall = read_sheet('https://docs.google.com/spreadsheets/d/1RI5q4TM3cUH52WXezd26vLtf9WHF1nakXe2zLTmXJKc', sheet="Fall")
+
 
 schedule.Spring = read_sheet('https://docs.google.com/spreadsheets/d/1RI5q4TM3cUH52WXezd26vLtf9WHF1nakXe2zLTmXJKc', sheet="Spring")
 ```
