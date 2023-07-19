@@ -1,8 +1,8 @@
 project:
   type: website
-
+  output-dir: docs
 website:
-  title: "STA 701S Fall 2023"
+  title: "STA 701S"
   navbar:
     left:
       - href: index.qmd
