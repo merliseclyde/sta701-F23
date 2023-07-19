@@ -1,12 +1,23 @@
 project:
   type: website
 website:
-  title: "STA 701S"
+  title: "STA 701S 2023-2024"
   navbar:
+    background: "#D9E3E4"
+    align: center
+    collapse-below: lg
+  
     left:
       - href: index.qmd
         text: Home
       - about.qmd
+  repo-url: https://github.com/merliseclyde/sta701-F23
+  repo-actions: [issue]
+  page-footer:
+    right: "This page is built with [Quarto](https://quarto.org/)."
+    left: "&copy; Copyright 2023, Merlise Clyde"
+    background: "#D9E3E4"
+      
 
 format:
   html:
@@ -14,5 +25,7 @@ format:
     css: styles.css
     toc: true
 
-editor: visual
+callout-appearance: simple
+
+
 

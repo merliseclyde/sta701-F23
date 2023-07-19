@@ -1,16 +1,14 @@
 ---
-title: "STA 701S"
+title: "Graduate Student Research Seminar Series"
 ---
 
-# Graduate Student Research Seminar Series
-
-## 2023-2024
+![ ](images/duke.jpg)
 
 **Time**: Mondays 11:45 - 1:00 pm
 
 **Place**: Reuben-Cooke Building 130
 
-**Instructor:** Merlise Clyde (clyde\@duke.edu)
+**Instructor:** Merlise Clyde [clyde@duke.edu](clyde\@duke.edu)
 
 ```{r echo=FALSE, message=FALSE, results='hide'}
 require(googlesheets4)
