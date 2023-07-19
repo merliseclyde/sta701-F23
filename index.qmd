@@ -6,6 +6,8 @@ title: "STA 701S 2023-24"
 
 **Place**: Reuben-Cooke Building 130
 
+**Instructor:** Merlise Clyde (clyde\@duke.edu)
+
 ## 
 
 ```{r, echo=FALSE, include=FALSE}
