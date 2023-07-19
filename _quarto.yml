@@ -3,7 +3,7 @@ project:
 website:
   title: "STA 701S 2023-2024"
   navbar:
-    background: "#D9E3E4"
+    background: "#353148"
     align: center
     collapse-below: lg
   
@@ -16,7 +16,7 @@ website:
   page-footer:
     right: "This page is built with [Quarto](https://quarto.org/)."
     left: "&copy; Copyright 2023, Merlise Clyde"
-    background: "#D9E3E4"
+    background: "#353148"
       
 
 format:
