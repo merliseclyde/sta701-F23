@@ -1,6 +1,10 @@
 ---
-title: "STA 701S 2023-24"
+title: "STA 701S"
 ---
+
+# Graduate Student Research Seminar Series
+
+## 2023-2024
 
 **Time**: Mondays 11:45 - 1:00 pm
 
