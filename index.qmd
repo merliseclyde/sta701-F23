@@ -8,11 +8,15 @@ title: "STA 701S 2023-24"
 
 **Instructor:** Merlise Clyde (clyde\@duke.edu)
 
-## 
+```{r echo=FALSE, message=FALSE, results='hide'}
+require(googlesheets4)
+library(googlesheets4)
+
+```
 
 ```{r, echo=FALSE, include=FALSE}
 library(googlesheets4)
-gs4_auth(email="merlise.clyde@gmail.com")
+#gs4_auth(email="merlise.clyde@gmail.com")
 ```
 
 ```{r, echo=FALSE, message=FALSE, results='hide'}
