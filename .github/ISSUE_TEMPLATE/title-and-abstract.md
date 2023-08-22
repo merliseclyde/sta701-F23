@@ -24,7 +24,7 @@ date: "Aug 28, 2023"
 
 ## Abstract 
 
-Your abstract should be one paragraph, concise and should convey the main ideas and results of my presentation.   Try to avoid using mathematical expressions, if possible, but if necessary you may include $\LaTex$.
+Your abstract should be one paragraph, concise and should convey the main ideas and results of your presentation.   Try to avoid using mathematical expressions, if possible.
 
 
 
