@@ -1,7 +1,8 @@
 ---
 name: Title and Abstract
-description: Form for submit Titles and Abstracts
-title: Title
+about: Submission for Titles and Abstracts for 701
+description: Please update the fields below and submit your title and abstracts for your 701 talk
+title: Title & Abstract
 labels: ''
 assignees: ''
 
