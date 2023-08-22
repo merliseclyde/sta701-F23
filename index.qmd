@@ -29,14 +29,25 @@ schedule.Fall = read_sheet('https://docs.google.com/spreadsheets/d/1RI5q4TM3cUH5
 schedule.Spring = read_sheet('https://docs.google.com/spreadsheets/d/1RI5q4TM3cUH52WXezd26vLtf9WHF1nakXe2zLTmXJKc', sheet="Spring")
 ```
 
-## Fall Schedule
+```{r, echo=FALSE, message=FALSE, results='hide'}
+make_link = function(title, abs) {
+    ifelse(is.na(abs), 
+        NA, 
+        paste0("<a href=\"", "abstracts/", abs, "\">",
+                title,"</a>"))
+}
+
+schedule.Fall$Title = make_link(schedule.Fall$Title, schedule.Fall$abstract)
+```
+
+## Fall Schedule 
 
 ```{r fall, echo=FALSE}
 options(knitr.kable.NA = '')
-knitr::kable(schedule.Fall)
+knitr::kable(schedule.Fall[, -5])
 ```
 
-## Spring Schedule
+## Spring Schedule 
 
 ```{r spring, echo=FALSE}
 knitr::kable(schedule.Spring)

@@ -1,0 +1,25 @@
+---
+title: "Prior-itizing Privacy: A Bayesian Approach to Setting the Privacy Budget in Differential Privacy"
+
+author: "Zeki Kazan"
+
+date: "Aug 28, 2023"
+
+---
+
+
+
+
+
+## Abstract 
+
+When releasing outputs from confidential data, agencies need to balance  the analytical usefulness of the released data with the obligation to protect data subjects' confidentiality. For releases satisfying differential privacy, this balance is reflected by the parameter $\varepsilon$, known as the privacy budget. In practice, it can be difficult for agencies to select and interpret $\varepsilon$.  We use Bayesian posterior probabilities of disclosure to provide a framework for setting $\varepsilon$. The agency decides how much posterior risk it is willing to accept in a data release at various levels of prior risk.  Using a mathematical relationship among these probabilities and $\varepsilon$, the agency selects the maximum $\varepsilon$ that ensures the posterior-to-prior ratios are acceptable for all values of prior disclosure risk. The framework applies to any differentially private mechanism.
+
+
+
+
+### Advisor(s)
+
+Jerry Reiter
+
+---
