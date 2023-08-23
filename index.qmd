@@ -1,55 +1,91 @@
 ---
 title: "Graduate Student Research Seminar Series"
+editor_options: 
+  chunk_output_type: console
+execute:
+  echo: false
 ---
 
-![ ](images/duke.jpg)
+![](images/duke.jpg){fig-alt="Photo of Duke Chapel and Broadhead Center."}
 
 **Time**: Mondays 11:45 - 1:00 pm
 
 **Place**: Reuben-Cooke Building 130
 
-**Instructor:** Merlise Clyde [clyde@duke.edu](clyde\@duke.edu)
+**Instructor:** Merlise Clyde [clyde\@duke.edu](clyde@duke.edu)
 
-```{r echo=FALSE, message=FALSE, results='hide'}
-require(googlesheets4)
-library(googlesheets4)
+```{r}
+#| message: false
 
-```
-
-```{r, echo=FALSE, include=FALSE}
 library(googlesheets4)
 #gs4_auth(email="merlise.clyde@gmail.com")
+library(gt)
+library(dplyr)
 ```
 
-```{r, echo=FALSE, message=FALSE, results='hide'}
-gs4_deauth()
-schedule.Fall = read_sheet('https://docs.google.com/spreadsheets/d/1RI5q4TM3cUH52WXezd26vLtf9WHF1nakXe2zLTmXJKc', sheet="Fall")
+```{r}
+#| message: false
 
+gs4_deauth()
+
+schedule.Fall = read_sheet('https://docs.google.com/spreadsheets/d/1RI5q4TM3cUH52WXezd26vLtf9WHF1nakXe2zLTmXJKc', sheet="Fall")
 
 schedule.Spring = read_sheet('https://docs.google.com/spreadsheets/d/1RI5q4TM3cUH52WXezd26vLtf9WHF1nakXe2zLTmXJKc', sheet="Spring")
 ```
 
-```{r, echo=FALSE, message=FALSE, results='hide'}
-make_link = function(title, abs) {
-    ifelse(is.na(abs), 
-        NA, 
-        paste0("<a href=\"", "abstracts/", abs, "\">",
-                title,"</a>"))
-}
-
-schedule.Fall$Title = make_link(schedule.Fall$Title, schedule.Fall$abstract)
-```
-
 ## Fall Schedule {{< fa calendar-days>}}
 
-```{r fall, echo=FALSE}
-options(knitr.kable.NA = '')
-knitr::kable(schedule.Fall[, -5])
+```{r}
+#| label: fall
+
+schedule.Fall |>
+  mutate(
+    Title = if_else(!is.na(abstract), paste0("[", Title, "](abstracts/", abstract, ")"), NA)
+    ) |>
+  select(-abstract) |>
+  gt() |>
+  fmt_date(
+    columns = Date,
+    date_style = "day_m"
+  ) |>
+  fmt_markdown(
+    columns = c(Moderator, Title)
+  ) |>
+  sub_missing(missing_text = "") |>
+  cols_width(
+    Date ~ px(100),
+    Moderator ~ px(150),
+    Speaker ~ px(150),
+    Title ~ px(450)
+  ) |>
+  opt_stylize(style = 1, color = "gray")
 ```
 
 ## Spring Schedule {{< fa calendar-days>}}
 
-```{r spring, echo=FALSE}
-knitr::kable(schedule.Spring)
+```{r}
+#| label: spring
 
+schedule.Spring |>
+  #uncomment below when abstract column is added to sheet
+  #mutate(
+  #  Title = if_else(!is.na(abstract), paste0("[", Title, "](abstracts/", abstract, ")"), NA)
+  #  ) |>
+  #select(-abstract) |>
+  gt() |>
+  fmt_markdown(
+    columns = c(Moderator, Title)
+  ) |>
+  fmt_date(
+    columns = Date,
+    date_style = "day_m"
+  ) |>
+  sub_missing(missing_text = "") |>
+  cols_width(
+    Date ~ px(100),
+    Moderator ~ px(150),
+    Speaker ~ px(150),
+    Title ~ px(450)
+  )  |>
+  opt_stylize(style = 1, color = "gray")
 ```
