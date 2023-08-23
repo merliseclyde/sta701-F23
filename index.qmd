@@ -58,6 +58,7 @@ schedule.Fall |>
     Speaker ~ px(150),
     Title ~ px(450)
   ) |>
+  cols_align("left") |>
   opt_stylize(style = 1, color = "gray")
 ```
 
@@ -87,5 +88,6 @@ schedule.Spring |>
     Speaker ~ px(150),
     Title ~ px(450)
   )  |>
+  cols_align("left") |>
   opt_stylize(style = 1, color = "gray")
 ```
