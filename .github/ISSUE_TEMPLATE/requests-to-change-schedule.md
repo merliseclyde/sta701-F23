@@ -13,5 +13,4 @@ assignees: ''
 
 ## Alternate Day(s) for Talk:
 
-
-## Are either of the speakers for the Alternate Day willing to switch slots?  (who)
+## Name of speaker for the Alternate Day willing to switch slots
