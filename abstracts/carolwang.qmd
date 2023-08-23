@@ -1,0 +1,24 @@
+---
+title: "Tree boosting for conditional density estimation"
+
+author: "Carol Wang"
+
+date: "Aug 28, 2023"
+
+---
+
+
+
+
+
+## Abstract 
+
+In many real-world situations, modeling complex conditional distributions is crucial. We developed a tree boosting algorithm for learning conditional densities by forward stagewise fitting of an additive tree ensemble. The core idea of our algorithm is to use covariate-dependent probability measures defined by partition trees and sequentially “subtract” these probability measures from observations to remove the distributional structure from the underlying sampling distribution. Our algorithm offers the flexibility of employing any binary classifier trained under log loss to estimate branching probabilities within partition trees. The performance is further improved with scale-specific shrinkage. Notably, our algorithm not only allows evaluating the fitted density analytically but also provides a generative model that can be easily sampled from. We tested the algorithm on both simulated examples and a benchmark regression dataset.
+
+
+
+
+### Advisor(s)
+
+Li Ma
+---

@@ -40,14 +40,14 @@ make_link = function(title, abs) {
 schedule.Fall$Title = make_link(schedule.Fall$Title, schedule.Fall$abstract)
 ```
 
-## Fall Schedule 
+## Fall Schedule {{< fa calendar-days>}}
 
 ```{r fall, echo=FALSE}
 options(knitr.kable.NA = '')
 knitr::kable(schedule.Fall[, -5])
 ```
 
-## Spring Schedule 
+## Spring Schedule {{< fa calendar-days>}}
 
 ```{r spring, echo=FALSE}
 knitr::kable(schedule.Spring)
