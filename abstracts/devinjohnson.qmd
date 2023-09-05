@@ -1,0 +1,31 @@
+---
+title: "Comparison and Bayesian Estimation of Feature Allocations"
+author: "Devin J. Johnson"
+date: "September 11, 2023"
+---
+
+
+
+
+
+## Abstract 
+
+Feature allocation models postulate a sampling distribution whose parameters are derived from shared
+features. Bayesian models place a prior distribution on the feature allocation, and Markov chain Monte
+Carlo is typically used for model fitting, which results in thousands of feature allocations sampled from the
+posterior distribution. Based on these samples, we propose a method to provide a point estimate of a latent
+feature allocation. First, we introduce FARO loss, a function between feature allocations which satisfies quasimetric
+properties and allows for comparing feature allocations with differing numbers of features. The loss
+involves finding the optimal feature ordering among all possible orderings, but computational feasibility
+is achieved by framing this task as a linear assignment problem. We also introduce the FANGS algorithm
+to obtain a Bayes estimate by minimizing the Monte Carlo estimate of the posterior expected FARO loss
+using the available samples. FANGS can produce an estimate other than those visited in the Markov chain.
+We provide an investigation of existing methods and our proposed methods. Our loss function and search
+algorithm are implemented in the fangs package in R.
+
+
+
+
+### Advisor(s)
+
+Eric Laber, Simon Mak, and Jason Xu
