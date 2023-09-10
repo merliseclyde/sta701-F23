@@ -1,0 +1,20 @@
+---
+title: "Bayesian Fault Localization for Software Testing"
+author: "Irene Ji"
+date: "Sep 18, 2023"
+
+---
+
+
+
+
+
+## Abstract 
+
+Fault localization is a software testing activity that is critical when software failures occur. We propose a novel Bayesian fault localization method, yielding a principled and probabilistic ranking of suspicious input combinations for identifying the root causes of failures. We are currently developing methods to use the calculated probabilities for sequential test case generation.
+
+
+
+### Advisor(s)
+
+Simon Mak
