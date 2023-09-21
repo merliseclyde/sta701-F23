@@ -1,47 +1,5 @@
 [
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "This course provides graduate students with the opportunity to share their research with other students and faculty, as well as practice giving good research presentations. Each session will consist of either two short presentations or one long presentation. Presenters will receive constructive feedback from both myself and the audience, on both the presentation and research content. Students are encouraged (and expected) to contribute to discussions - this helps both the presenter and your own research!"
-  },
-  {
-    "objectID": "about.html#description",
-    "href": "about.html#description",
-    "title": "About",
-    "section": "",
-    "text": "This course provides graduate students with the opportunity to share their research with other students and faculty, as well as practice giving good research presentations. Each session will consist of either two short presentations or one long presentation. Presenters will receive constructive feedback from both myself and the audience, on both the presentation and research content. Students are encouraged (and expected) to contribute to discussions - this helps both the presenter and your own research!"
-  },
-  {
-    "objectID": "about.html#logistics",
-    "href": "about.html#logistics",
-    "title": "About",
-    "section": "Logistics",
-    "text": "Logistics\n\nSpeakers are expected to present in-person. A Zoom link will be available only for students who cannot physically attend or external audience members.\nStudents presenting will invite their PhD advisors and committee members to attend.\nAll PhD students in Statistical Science are recommended to register for STA 701S each semester, and all PhD students in Statistical Science in Years 3+ of studies will be required to register and present in STA 701S each year.\nThere will be two talks scheduled in each class. Each talk should be no longer than 25 minutes, which leaves ample time for questions & suggestions from the audience.\nFirst and second year PhD students will serve as Moderators, who will introduce the speakers and facilitate Q&A.\nAny students who will need to change the date of the presentation should submit a request in Github.1 Please provide the alternate date(s) and confirmation that the other individual is willing to switch.\nPlease submit titles and abstracts at least one week in advance."
-  },
-  {
-    "objectID": "about.html#footnotes",
-    "href": "about.html#footnotes",
-    "title": "About",
-    "section": "Footnotes",
-    "text": "Footnotes\n\n\nYou must be logged in to GitHub to submit a request.↩︎"
-  },
-  {
-    "objectID": "abstracts/devinjohnson.html",
-    "href": "abstracts/devinjohnson.html",
-    "title": "Comparison and Bayesian Estimation of Feature Allocations",
-    "section": "",
-    "text": "Feature allocation models postulate a sampling distribution whose parameters are derived from shared features. Bayesian models place a prior distribution on the feature allocation, and Markov chain Monte Carlo is typically used for model fitting, which results in thousands of feature allocations sampled from the posterior distribution. Based on these samples, we propose a method to provide a point estimate of a latent feature allocation. First, we introduce FARO loss, a function between feature allocations which satisfies quasimetric properties and allows for comparing feature allocations with differing numbers of features. The loss involves finding the optimal feature ordering among all possible orderings, but computational feasibility is achieved by framing this task as a linear assignment problem. We also introduce the FANGS algorithm to obtain a Bayes estimate by minimizing the Monte Carlo estimate of the posterior expected FARO loss using the available samples. FANGS can produce an estimate other than those visited in the Markov chain. We provide an investigation of existing methods and our proposed methods. Our loss function and search algorithm are implemented in the fangs package in R.\n\n\nEric Laber, Simon Mak, and Jason Xu"
-  },
-  {
-    "objectID": "abstracts/devinjohnson.html#abstract",
-    "href": "abstracts/devinjohnson.html#abstract",
-    "title": "Comparison and Bayesian Estimation of Feature Allocations",
-    "section": "",
-    "text": "Feature allocation models postulate a sampling distribution whose parameters are derived from shared features. Bayesian models place a prior distribution on the feature allocation, and Markov chain Monte Carlo is typically used for model fitting, which results in thousands of feature allocations sampled from the posterior distribution. Based on these samples, we propose a method to provide a point estimate of a latent feature allocation. First, we introduce FARO loss, a function between feature allocations which satisfies quasimetric properties and allows for comparing feature allocations with differing numbers of features. The loss involves finding the optimal feature ordering among all possible orderings, but computational feasibility is achieved by framing this task as a linear assignment problem. We also introduce the FANGS algorithm to obtain a Bayes estimate by minimizing the Monte Carlo estimate of the posterior expected FARO loss using the available samples. FANGS can produce an estimate other than those visited in the Markov chain. We provide an investigation of existing methods and our proposed methods. Our loss function and search algorithm are implemented in the fangs package in R.\n\n\nEric Laber, Simon Mak, and Jason Xu"
-  },
-  {
     "objectID": "abstracts/justinweltz.html",
     "href": "abstracts/justinweltz.html",
     "title": "Experimental Designs for Heteroskedastic Variance",
@@ -70,27 +28,6 @@
     "text": "Fault localization is a software testing activity that is critical when software failures occur. We propose a novel Bayesian fault localization method, yielding a principled and probabilistic ranking of suspicious input combinations for identifying the root causes of failures. We are currently developing methods to use the calculated probabilities for sequential test case generation.\n\n\nSimon Mak"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Graduate Student Research Seminar Series",
-    "section": "",
-    "text": "Time: Mondays 11:45 - 1:00 pm\nPlace: Reuben-Cooke Building 130\nInstructor: Merlise Clyde clyde@duke.edu"
-  },
-  {
-    "objectID": "index.html#fall-schedule-fa-calendar-days",
-    "href": "index.html#fall-schedule-fa-calendar-days",
-    "title": "Graduate Student Research Seminar Series",
-    "section": "Fall Schedule ",
-    "text": "Fall Schedule \n\n\n\n\n\n\n  \n    \n    \n    \n    \n  \n  \n    \n    \n      Date\n      Moderator\n      Speaker\n      Title\n    \n  \n  \n    28 Aug\nKat Husar\n\nCarol Wang\nTree Boosting for Conditional Density Estimation\n\n    \n\nZeki Kazan\nPrior-itizing Privacy: A Bayesian Approach to Setting the Privacy Budget in Differential Privacy\n\n    4 Sep\nLabor Day\n\n\n\n    \nNo Talks\n\n\n\n    11 Sep\nBennedetta Bruni\n\nJustin Weltz\nExperimental Designs for Heteroskedastic Variance\n\n    \n\nDevin Johnson\nComparison and Bayesian Estimation of Feature Allocations\n\n    18 Sep\nYueqi Guo\n\nIrene Ji\nBayesian Fault Localization for Software Testing\n\n    \n\nOlivier Binette\nPerformance Rank Reversals: An Overlooked Challenge in the Evaluation of Machine Learning Algorithms\n\n    25 Sep\nHoujie Wang\n\nMichael Christensen\n\n    \n\nBetsy Bersson\n\n    2 Oct\nFaculty Meeting\n\n\n\n    \nNo Talks\n\n\n\n    9 Oct\nLeah Johnson\n\nYunran Chen\n\n    \n\nRihui Ou\n\n    16 Oct\nFall Break\n\n\n\n    \nNo Talks\n\n\n\n    23 Oct\nAihua Li\n\nKeru Wu\n\n    \n\nJoseph Lawson\n\n    30 Oct\nSuchismita Roy\n\nXiaojun Zheng\n\n    \n\nRaphaël Morsomme\n\n    6 Nov\nFaculty Meeting\n\n\n\n    \nNo Talks\n\n\n\n    13 Nov\nCaitrin Murphy\n\nBrian Kundinger\n\n    \n\nEd Tam\n\n    20 Nov\nYen-Chun Liu\n\nAndrea Aveni\n\n    \n\nYoungsoo Baek\n\n    27 Nov\nLorenzo Mauri\n\nAlexander Dombowsky\n\n    \n\nRick Presman\n\n    4 Dec\nFaculty Meeting\n\n\n\n    \nNo Talks"
-  },
-  {
-    "objectID": "index.html#spring-schedule-fa-calendar-days",
-    "href": "index.html#spring-schedule-fa-calendar-days",
-    "title": "Graduate Student Research Seminar Series",
-    "section": "Spring Schedule ",
-    "text": "Spring Schedule \n\n\n\n\n\n\n  \n    \n    \n    \n    \n  \n  \n    \n    \n      Date\n      Moderator\n      Speaker\n      Title\n    \n  \n  \n    15 Jan\nMLK Holiday\n\n\n\n    \nNo Talks\n\n\n\n    22 Jan\nHold for Search\n\n\n\n    29 Jan\nHold for Search\n\n\n\n    5 Feb\nFaculty Meeting\n\n\n\n    \nNo Talks\n\n\n\n    12 Feb\nPiotr Suder\n\nJoe Mathews\n\n    \n\nEmily Tallman\n\n    19 Feb\nBonjung Sung\n\nJennifer Kampe\n\n    \n\nBo Liu\n\n    26 Feb\nLuke Vrotsos\n\nYuren Zhou\n\n    \n\nSteve Winter\n\n    4 Mar\nFaculty Meeting\n\n\n\n    \nNo Talks\n\n\n\n    11 Mar\nSpring Break\n\n\n\n    \nNo Talks\n\n\n\n    18 Mar\nShuo Wang\n\nKevin Li\n\n    \n\nChristine Shen\n\n    25 Mar\nJaehoan Kim\n\nGlenn Palmer\n\n    \n\nCathy Lee\n\n    1 Apr\nFaculty Meeting\n\n\n\n    \nNo Talks\n\n\n\n    8 Apr\nGyeonghun Kang\n\nRiccardo Rossetti\n\n    \n\nJohn Miller\n\n    15 Apr\nNeubrander, Marie\n\nNathan Varberg\n\n    \n\nSam Rosen\n\n    22 Apr\nReading Period\n\n\n\n    \nNo Talks"
-  },
-  {
     "objectID": "abstracts/binette.html",
     "href": "abstracts/binette.html",
     "title": "Performance Rank Reversals: An Overlooked Challenge in the Evaluation of Machine Learning Algorithms",
@@ -117,6 +54,83 @@
     "title": "Prior-itizing Privacy: A Bayesian Approach to Setting the Privacy Budget in Differential Privacy",
     "section": "",
     "text": "When releasing outputs from confidential data, agencies need to balance the analytical usefulness of the released data with the obligation to protect data subjects’ confidentiality. For releases satisfying differential privacy, this balance is reflected by the parameter \\(\\varepsilon\\), known as the privacy budget. In practice, it can be difficult for agencies to select and interpret \\(\\varepsilon\\). We use Bayesian posterior probabilities of disclosure to provide a framework for setting \\(\\varepsilon\\). The agency decides how much posterior risk it is willing to accept in a data release at various levels of prior risk. Using a mathematical relationship among these probabilities and \\(\\varepsilon\\), the agency selects the maximum \\(\\varepsilon\\) that ensures the posterior-to-prior ratios are acceptable for all values of prior disclosure risk. The framework applies to any differentially private mechanism.\n\n\nJerry Reiter"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Graduate Student Research Seminar Series",
+    "section": "",
+    "text": "Time: Mondays 11:45 - 1:00 pm\nPlace: Reuben-Cooke Building 130\nInstructor: Merlise Clyde clyde@duke.edu"
+  },
+  {
+    "objectID": "index.html#fall-schedule-fa-calendar-days",
+    "href": "index.html#fall-schedule-fa-calendar-days",
+    "title": "Graduate Student Research Seminar Series",
+    "section": "Fall Schedule ",
+    "text": "Fall Schedule \n\n\n\n\n\n\n  \n    \n    \n    \n    \n  \n  \n    \n    \n      Date\n      Moderator\n      Speaker\n      Title\n    \n  \n  \n    28 Aug\nKat Husar\n\nCarol Wang\nTree Boosting for Conditional Density Estimation\n\n    \n\nZeki Kazan\nPrior-itizing Privacy: A Bayesian Approach to Setting the Privacy Budget in Differential Privacy\n\n    4 Sep\nLabor Day\n\n\n\n    \nNo Talks\n\n\n\n    11 Sep\nBennedetta Bruni\n\nJustin Weltz\nExperimental Designs for Heteroskedastic Variance\n\n    \n\nDevin Johnson\nComparison and Bayesian Estimation of Feature Allocations\n\n    18 Sep\nYueqi Guo\n\nIrene Ji\nBayesian Fault Localization for Software Testing\n\n    \n\nOlivier Binette\nFeedback-Driven ML: A Proposal for Harnessing Subject-Matter Expertise in the Model Development Cycle\n\n    25 Sep\nHoujie Wang\n\nBetsy Bersson\nOptimal Prediction Sets for Describing Uncertainty in Categorical Data\n\n    \n\nMichael Christensen\n\n    2 Oct\nFaculty Meeting\n\n\n\n    \nNo Talks\n\n\n\n    9 Oct\nLeah Johnson\n\nYunran Chen\n\n    \n\nRihui Ou\n\n    16 Oct\nFall Break\n\n\n\n    \nNo Talks\n\n\n\n    23 Oct\nAihua Li\n\nKeru Wu\n\n    \n\nJoseph Lawson\n\n    30 Oct\nSuchismita Roy\n\nXiaojun Zheng\n\n    \n\nRaphaël Morsomme\n\n    6 Nov\nFaculty Meeting\n\n\n\n    \nNo Talks\n\n\n\n    13 Nov\nCaitrin Murphy\n\nBrian Kundinger\n\n    \n\nEd Tam\n\n    20 Nov\nYen-Chun Liu\n\nAndrea Aveni\n\n    \n\nYoungsoo Baek\n\n    27 Nov\nLorenzo Mauri\n\nAlexander Dombowsky\n\n    \n\nRick Presman\n\n    4 Dec\nFaculty Meeting\n\n\n\n    \nNo Talks"
+  },
+  {
+    "objectID": "index.html#spring-schedule-fa-calendar-days",
+    "href": "index.html#spring-schedule-fa-calendar-days",
+    "title": "Graduate Student Research Seminar Series",
+    "section": "Spring Schedule ",
+    "text": "Spring Schedule \n\n\n\n\n\n\n  \n    \n    \n    \n    \n  \n  \n    \n    \n      Date\n      Moderator\n      Speaker\n      Title\n    \n  \n  \n    15 Jan\nMLK Holiday\n\n\n\n    \nNo Talks\n\n\n\n    22 Jan\nHold for Search\n\n\n\n    29 Jan\nHold for Search\n\n\n\n    5 Feb\nFaculty Meeting\n\n\n\n    \nNo Talks\n\n\n\n    12 Feb\nPiotr Suder\n\nJoe Mathews\n\n    \n\nEmily Tallman\n\n    19 Feb\nBonjung Sung\n\nJennifer Kampe\n\n    \n\nBo Liu\n\n    26 Feb\nLuke Vrotsos\n\nYuren Zhou\n\n    \n\nSteve Winter\n\n    4 Mar\nFaculty Meeting\n\n\n\n    \nNo Talks\n\n\n\n    11 Mar\nSpring Break\n\n\n\n    \nNo Talks\n\n\n\n    18 Mar\nShuo Wang\n\nKevin Li\n\n    \n\nChristine Shen\n\n    25 Mar\nJaehoan Kim\n\nGlenn Palmer\n\n    \n\nCathy Lee\n\n    1 Apr\nFaculty Meeting\n\n\n\n    \nNo Talks\n\n\n\n    8 Apr\nGyeonghun Kang\n\nRiccardo Rossetti\n\n    \n\nJohn Miller\n\n    15 Apr\nNeubrander, Marie\n\nNathan Varberg\n\n    \n\nSam Rosen\n\n    22 Apr\nReading Period\n\n\n\n    \nNo Talks"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "This course provides graduate students with the opportunity to share their research with other students and faculty, as well as practice giving good research presentations. Each session will consist of either two short presentations or one long presentation. Presenters will receive constructive feedback from both myself and the audience, on both the presentation and research content. Students are encouraged (and expected) to contribute to discussions - this helps both the presenter and your own research!"
+  },
+  {
+    "objectID": "about.html#description",
+    "href": "about.html#description",
+    "title": "About",
+    "section": "",
+    "text": "This course provides graduate students with the opportunity to share their research with other students and faculty, as well as practice giving good research presentations. Each session will consist of either two short presentations or one long presentation. Presenters will receive constructive feedback from both myself and the audience, on both the presentation and research content. Students are encouraged (and expected) to contribute to discussions - this helps both the presenter and your own research!"
+  },
+  {
+    "objectID": "about.html#logistics",
+    "href": "about.html#logistics",
+    "title": "About",
+    "section": "Logistics",
+    "text": "Logistics\n\nSpeakers are expected to present in-person. A Zoom link will be available only for students who cannot physically attend or external audience members.\nStudents presenting will invite their PhD advisors and committee members to attend.\nAll PhD students in Statistical Science are recommended to register for STA 701S each semester, and all PhD students in Statistical Science in Years 3+ of studies will be required to register and present in STA 701S each year.\nThere will be two talks scheduled in each class. Each talk should be no longer than 25 minutes, which leaves ample time for questions & suggestions from the audience.\nFirst and second year PhD students will serve as Moderators, who will introduce the speakers and facilitate Q&A.\nAny students who will need to change the date of the presentation should submit a request in Github.1 Please provide the alternate date(s) and confirmation that the other individual is willing to switch.\nPlease submit titles and abstracts at least one week in advance."
+  },
+  {
+    "objectID": "about.html#footnotes",
+    "href": "about.html#footnotes",
+    "title": "About",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nYou must be logged in to GitHub to submit a request.↩︎"
+  },
+  {
+    "objectID": "abstracts/bersson.html",
+    "href": "abstracts/bersson.html",
+    "title": "Optimal Prediction Sets for Describing Uncertainty in Categorical Data",
+    "section": "",
+    "text": "Summarizing categorical data through valid and efficient prediction sets provides unambiguous statistical inference along with an accessible interpretation. To this end, we present a nonparametric framework for obtaining valid prediction sets based on a multinomial random sample which are constructed based solely on the sample and an ordering of event probabilities. We prove an ordering obtained based on accurate indirect information results in the prediction set with the smallest expected cardinality among a reduced class of all prediction sets, and the prediction set retains validity regardless of the accuracy of the indirect information. We detail a simple algorithm to obtain the optimal prediction set where the computation time does not depend on the sample size and scales nicely with the number of species considered. Our proposed method naturally extends to a small area regime whereby information may be shared across areas such as geographic regions. We demonstrate the usefulness of our method in summarizing checklists of bird sightings across North Carolina from the widely-used eBird database\n\n\nPeter D. Hoff"
+  },
+  {
+    "objectID": "abstracts/bersson.html#abstract",
+    "href": "abstracts/bersson.html#abstract",
+    "title": "Optimal Prediction Sets for Describing Uncertainty in Categorical Data",
+    "section": "",
+    "text": "Summarizing categorical data through valid and efficient prediction sets provides unambiguous statistical inference along with an accessible interpretation. To this end, we present a nonparametric framework for obtaining valid prediction sets based on a multinomial random sample which are constructed based solely on the sample and an ordering of event probabilities. We prove an ordering obtained based on accurate indirect information results in the prediction set with the smallest expected cardinality among a reduced class of all prediction sets, and the prediction set retains validity regardless of the accuracy of the indirect information. We detail a simple algorithm to obtain the optimal prediction set where the computation time does not depend on the sample size and scales nicely with the number of species considered. Our proposed method naturally extends to a small area regime whereby information may be shared across areas such as geographic regions. We demonstrate the usefulness of our method in summarizing checklists of bird sightings across North Carolina from the widely-used eBird database\n\n\nPeter D. Hoff"
+  },
+  {
+    "objectID": "abstracts/devinjohnson.html",
+    "href": "abstracts/devinjohnson.html",
+    "title": "Comparison and Bayesian Estimation of Feature Allocations",
+    "section": "",
+    "text": "Feature allocation models postulate a sampling distribution whose parameters are derived from shared features. Bayesian models place a prior distribution on the feature allocation, and Markov chain Monte Carlo is typically used for model fitting, which results in thousands of feature allocations sampled from the posterior distribution. Based on these samples, we propose a method to provide a point estimate of a latent feature allocation. First, we introduce FARO loss, a function between feature allocations which satisfies quasimetric properties and allows for comparing feature allocations with differing numbers of features. The loss involves finding the optimal feature ordering among all possible orderings, but computational feasibility is achieved by framing this task as a linear assignment problem. We also introduce the FANGS algorithm to obtain a Bayes estimate by minimizing the Monte Carlo estimate of the posterior expected FARO loss using the available samples. FANGS can produce an estimate other than those visited in the Markov chain. We provide an investigation of existing methods and our proposed methods. Our loss function and search algorithm are implemented in the fangs package in R.\n\n\nEric Laber, Simon Mak, and Jason Xu"
+  },
+  {
+    "objectID": "abstracts/devinjohnson.html#abstract",
+    "href": "abstracts/devinjohnson.html#abstract",
+    "title": "Comparison and Bayesian Estimation of Feature Allocations",
+    "section": "",
+    "text": "Feature allocation models postulate a sampling distribution whose parameters are derived from shared features. Bayesian models place a prior distribution on the feature allocation, and Markov chain Monte Carlo is typically used for model fitting, which results in thousands of feature allocations sampled from the posterior distribution. Based on these samples, we propose a method to provide a point estimate of a latent feature allocation. First, we introduce FARO loss, a function between feature allocations which satisfies quasimetric properties and allows for comparing feature allocations with differing numbers of features. The loss involves finding the optimal feature ordering among all possible orderings, but computational feasibility is achieved by framing this task as a linear assignment problem. We also introduce the FANGS algorithm to obtain a Bayes estimate by minimizing the Monte Carlo estimate of the posterior expected FARO loss using the available samples. FANGS can produce an estimate other than those visited in the Markov chain. We provide an investigation of existing methods and our proposed methods. Our loss function and search algorithm are implemented in the fangs package in R.\n\n\nEric Laber, Simon Mak, and Jason Xu"
   },
   {
     "objectID": "abstracts/carolwang.html",
