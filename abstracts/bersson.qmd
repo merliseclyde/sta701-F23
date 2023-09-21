@@ -1,0 +1,21 @@
+---
+title: "Optimal Prediction Sets for Describing Uncertainty in Categorical Data"
+author: "Elizabeth Bersson"
+date: "Sept 25, 2023"
+---
+
+
+
+
+
+## Abstract 
+
+Summarizing categorical data through valid and efficient prediction sets provides unambiguous statistical inference along with an accessible interpretation. To this end, we present a nonparametric framework for obtaining valid prediction sets based on a multinomial random sample which are constructed based solely on the sample and an ordering of event probabilities. We prove an ordering obtained based on accurate indirect information results in the prediction set with the smallest expected cardinality among a reduced class of all prediction sets, and the prediction set retains validity regardless of the accuracy of the indirect information. We detail a simple algorithm to obtain the optimal prediction set where the computation time does not depend on the sample size
+and scales nicely with the number of species considered. Our proposed method naturally extends to a small area regime whereby information may be shared across areas such as geographic regions. We demonstrate the usefulness of our method in summarizing checklists of bird sightings across North Carolina from the widely-used eBird database
+
+
+
+
+### Advisor(s)
+
+Peter D. Hoff
