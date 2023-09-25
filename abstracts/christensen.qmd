@@ -1,0 +1,13 @@
+---
+title: "An Eclectic Overview of MCMC Tricks and Tools for Sampling from Tricky Posteriors"
+author: "Michael Christensen"
+date: "Sep 25, 2023"
+---
+## Abstract 
+
+Bayesian model fitting is often reliant on Markov Chain Monte Carlo (MCMC) based methods for sampling from a target distribution. While most commonly used MCMC algorithms have theoretical guarantees of eventual convergence to the correct stationary distribution, in practice limited computational resources and poor tuning can result in failure to produce useable results. Additional obstacles to this goal may arise when dealing with a multimodal posterior distribution, when the posterior is concentrated near a submanifold with high curvature, in settings where the gradient and Hessian of the log posterior are unavailable, or due to me being bad at coding.  In this talk I present an overview of a few MCMC tools and algorithms that may be used in isolation or conjunction with one another to improve MCMC performance, along with example problems that result in the failure of commonly used MCMC tools such as STAN or JAGS. Much of this work was done in conjunction with Devin Francom and Abby Nachtsheim of Los Alamos National Laboratory.
+
+
+
+### Advisor(s)
+Peter Hoff
