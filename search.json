@@ -28,53 +28,32 @@
     "text": "Fault localization is a software testing activity that is critical when software failures occur. We propose a novel Bayesian fault localization method, yielding a principled and probabilistic ranking of suspicious input combinations for identifying the root causes of failures. We are currently developing methods to use the calculated probabilities for sequential test case generation.\n\n\nSimon Mak"
   },
   {
-    "objectID": "abstracts/binette.html",
-    "href": "abstracts/binette.html",
-    "title": "Performance Rank Reversals: An Overlooked Challenge in the Evaluation of Machine Learning Algorithms",
+    "objectID": "abstracts/christensen.html",
+    "href": "abstracts/christensen.html",
+    "title": "An Eclectic Overview of MCMC Tricks and Tools for Sampling from Tricky Posteriors",
     "section": "",
-    "text": "I’ll talk about research done at Los Alamos National Laboratory over the summer.\n\n\nJerry Reiter"
+    "text": "Bayesian model fitting is often reliant on Markov Chain Monte Carlo (MCMC) based methods for sampling from a target distribution. While most commonly used MCMC algorithms have theoretical guarantees of eventual convergence to the correct stationary distribution, in practice limited computational resources and poor tuning can result in failure to produce useable results. Additional obstacles to this goal may arise when dealing with a multimodal posterior distribution, when the posterior is concentrated near a submanifold with high curvature, in settings where the gradient and Hessian of the log posterior are unavailable, or due to me being bad at coding. In this talk I present an overview of a few MCMC tools and algorithms that may be used in isolation or conjunction with one another to improve MCMC performance, along with example problems that result in the failure of commonly used MCMC tools such as STAN or JAGS. Much of this work was done in conjunction with Devin Francom and Abby Nachtsheim of Los Alamos National Laboratory.\n\n\nPeter Hoff"
   },
   {
-    "objectID": "abstracts/binette.html#abstract",
-    "href": "abstracts/binette.html#abstract",
-    "title": "Performance Rank Reversals: An Overlooked Challenge in the Evaluation of Machine Learning Algorithms",
+    "objectID": "abstracts/christensen.html#abstract",
+    "href": "abstracts/christensen.html#abstract",
+    "title": "An Eclectic Overview of MCMC Tricks and Tools for Sampling from Tricky Posteriors",
     "section": "",
-    "text": "I’ll talk about research done at Los Alamos National Laboratory over the summer.\n\n\nJerry Reiter"
+    "text": "Bayesian model fitting is often reliant on Markov Chain Monte Carlo (MCMC) based methods for sampling from a target distribution. While most commonly used MCMC algorithms have theoretical guarantees of eventual convergence to the correct stationary distribution, in practice limited computational resources and poor tuning can result in failure to produce useable results. Additional obstacles to this goal may arise when dealing with a multimodal posterior distribution, when the posterior is concentrated near a submanifold with high curvature, in settings where the gradient and Hessian of the log posterior are unavailable, or due to me being bad at coding. In this talk I present an overview of a few MCMC tools and algorithms that may be used in isolation or conjunction with one another to improve MCMC performance, along with example problems that result in the failure of commonly used MCMC tools such as STAN or JAGS. Much of this work was done in conjunction with Devin Francom and Abby Nachtsheim of Los Alamos National Laboratory.\n\n\nPeter Hoff"
   },
   {
-    "objectID": "abstracts/kazan.html",
-    "href": "abstracts/kazan.html",
-    "title": "Prior-itizing Privacy: A Bayesian Approach to Setting the Privacy Budget in Differential Privacy",
+    "objectID": "abstracts/bersson.html",
+    "href": "abstracts/bersson.html",
+    "title": "Optimal Prediction Sets for Describing Uncertainty in Categorical Data",
     "section": "",
-    "text": "When releasing outputs from confidential data, agencies need to balance the analytical usefulness of the released data with the obligation to protect data subjects’ confidentiality. For releases satisfying differential privacy, this balance is reflected by the parameter \\(\\varepsilon\\), known as the privacy budget. In practice, it can be difficult for agencies to select and interpret \\(\\varepsilon\\). We use Bayesian posterior probabilities of disclosure to provide a framework for setting \\(\\varepsilon\\). The agency decides how much posterior risk it is willing to accept in a data release at various levels of prior risk. Using a mathematical relationship among these probabilities and \\(\\varepsilon\\), the agency selects the maximum \\(\\varepsilon\\) that ensures the posterior-to-prior ratios are acceptable for all values of prior disclosure risk. The framework applies to any differentially private mechanism.\n\n\nJerry Reiter"
+    "text": "Summarizing categorical data through valid and efficient prediction sets provides unambiguous statistical inference along with an accessible interpretation. To this end, we present a nonparametric framework for obtaining valid prediction sets based on a multinomial random sample which are constructed based solely on the sample and an ordering of event probabilities. We prove an ordering obtained based on accurate indirect information results in the prediction set with the smallest expected cardinality among a reduced class of all prediction sets, and the prediction set retains validity regardless of the accuracy of the indirect information. We detail a simple algorithm to obtain the optimal prediction set where the computation time does not depend on the sample size and scales nicely with the number of species considered. Our proposed method naturally extends to a small area regime whereby information may be shared across areas such as geographic regions. We demonstrate the usefulness of our method in summarizing checklists of bird sightings across North Carolina from the widely-used eBird database\n\n\nPeter D. Hoff"
   },
   {
-    "objectID": "abstracts/kazan.html#abstract",
-    "href": "abstracts/kazan.html#abstract",
-    "title": "Prior-itizing Privacy: A Bayesian Approach to Setting the Privacy Budget in Differential Privacy",
+    "objectID": "abstracts/bersson.html#abstract",
+    "href": "abstracts/bersson.html#abstract",
+    "title": "Optimal Prediction Sets for Describing Uncertainty in Categorical Data",
     "section": "",
-    "text": "When releasing outputs from confidential data, agencies need to balance the analytical usefulness of the released data with the obligation to protect data subjects’ confidentiality. For releases satisfying differential privacy, this balance is reflected by the parameter \\(\\varepsilon\\), known as the privacy budget. In practice, it can be difficult for agencies to select and interpret \\(\\varepsilon\\). We use Bayesian posterior probabilities of disclosure to provide a framework for setting \\(\\varepsilon\\). The agency decides how much posterior risk it is willing to accept in a data release at various levels of prior risk. Using a mathematical relationship among these probabilities and \\(\\varepsilon\\), the agency selects the maximum \\(\\varepsilon\\) that ensures the posterior-to-prior ratios are acceptable for all values of prior disclosure risk. The framework applies to any differentially private mechanism.\n\n\nJerry Reiter"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Graduate Student Research Seminar Series",
-    "section": "",
-    "text": "Time: Mondays 11:45 - 1:00 pm\nPlace: Reuben-Cooke Building 130\nInstructor: Merlise Clyde clyde@duke.edu"
-  },
-  {
-    "objectID": "index.html#fall-schedule-fa-calendar-days",
-    "href": "index.html#fall-schedule-fa-calendar-days",
-    "title": "Graduate Student Research Seminar Series",
-    "section": "Fall Schedule ",
-    "text": "Fall Schedule \n\n\n\n\n\n\n  \n    \n    \n    \n    \n  \n  \n    \n    \n      Date\n      Moderator\n      Speaker\n      Title\n    \n  \n  \n    28 Aug\nKat Husar\n\nCarol Wang\nTree Boosting for Conditional Density Estimation\n\n    \n\nZeki Kazan\nPrior-itizing Privacy: A Bayesian Approach to Setting the Privacy Budget in Differential Privacy\n\n    4 Sep\nLabor Day\n\n\n\n    \nNo Talks\n\n\n\n    11 Sep\nBennedetta Bruni\n\nJustin Weltz\nExperimental Designs for Heteroskedastic Variance\n\n    \n\nDevin Johnson\nComparison and Bayesian Estimation of Feature Allocations\n\n    18 Sep\nYueqi Guo\n\nIrene Ji\nBayesian Fault Localization for Software Testing\n\n    \n\nOlivier Binette\nFeedback-Driven ML: A Proposal for Harnessing Subject-Matter Expertise in the Model Development Cycle\n\n    25 Sep\nHoujie Wang\n\nBetsy Bersson\nOptimal Prediction Sets for Describing Uncertainty in Categorical Data\n\n    \n\nMichael Christensen\n\n    2 Oct\nFaculty Meeting\n\n\n\n    \nNo Talks\n\n\n\n    9 Oct\nLeah Johnson\n\nYunran Chen\n\n    \n\nRihui Ou\n\n    16 Oct\nFall Break\n\n\n\n    \nNo Talks\n\n\n\n    23 Oct\nAihua Li\n\nKeru Wu\n\n    \n\nJoseph Lawson\n\n    30 Oct\nSuchismita Roy\n\nXiaojun Zheng\n\n    \n\nRaphaël Morsomme\n\n    6 Nov\nFaculty Meeting\n\n\n\n    \nNo Talks\n\n\n\n    13 Nov\nCaitrin Murphy\n\nBrian Kundinger\n\n    \n\nEd Tam\n\n    20 Nov\nYen-Chun Liu\n\nAndrea Aveni\n\n    \n\nYoungsoo Baek\n\n    27 Nov\nLorenzo Mauri\n\nAlexander Dombowsky\n\n    \n\nRick Presman\n\n    4 Dec\nFaculty Meeting\n\n\n\n    \nNo Talks"
-  },
-  {
-    "objectID": "index.html#spring-schedule-fa-calendar-days",
-    "href": "index.html#spring-schedule-fa-calendar-days",
-    "title": "Graduate Student Research Seminar Series",
-    "section": "Spring Schedule ",
-    "text": "Spring Schedule \n\n\n\n\n\n\n  \n    \n    \n    \n    \n  \n  \n    \n    \n      Date\n      Moderator\n      Speaker\n      Title\n    \n  \n  \n    15 Jan\nMLK Holiday\n\n\n\n    \nNo Talks\n\n\n\n    22 Jan\nHold for Search\n\n\n\n    29 Jan\nHold for Search\n\n\n\n    5 Feb\nFaculty Meeting\n\n\n\n    \nNo Talks\n\n\n\n    12 Feb\nPiotr Suder\n\nJoe Mathews\n\n    \n\nEmily Tallman\n\n    19 Feb\nBonjung Sung\n\nJennifer Kampe\n\n    \n\nBo Liu\n\n    26 Feb\nLuke Vrotsos\n\nYuren Zhou\n\n    \n\nSteve Winter\n\n    4 Mar\nFaculty Meeting\n\n\n\n    \nNo Talks\n\n\n\n    11 Mar\nSpring Break\n\n\n\n    \nNo Talks\n\n\n\n    18 Mar\nShuo Wang\n\nKevin Li\n\n    \n\nChristine Shen\n\n    25 Mar\nJaehoan Kim\n\nGlenn Palmer\n\n    \n\nCathy Lee\n\n    1 Apr\nFaculty Meeting\n\n\n\n    \nNo Talks\n\n\n\n    8 Apr\nGyeonghun Kang\n\nRiccardo Rossetti\n\n    \n\nJohn Miller\n\n    15 Apr\nNeubrander, Marie\n\nNathan Varberg\n\n    \n\nSam Rosen\n\n    22 Apr\nReading Period\n\n\n\n    \nNo Talks"
+    "text": "Summarizing categorical data through valid and efficient prediction sets provides unambiguous statistical inference along with an accessible interpretation. To this end, we present a nonparametric framework for obtaining valid prediction sets based on a multinomial random sample which are constructed based solely on the sample and an ordering of event probabilities. We prove an ordering obtained based on accurate indirect information results in the prediction set with the smallest expected cardinality among a reduced class of all prediction sets, and the prediction set retains validity regardless of the accuracy of the indirect information. We detail a simple algorithm to obtain the optimal prediction set where the computation time does not depend on the sample size and scales nicely with the number of species considered. Our proposed method naturally extends to a small area regime whereby information may be shared across areas such as geographic regions. We demonstrate the usefulness of our method in summarizing checklists of bird sightings across North Carolina from the widely-used eBird database\n\n\nPeter D. Hoff"
   },
   {
     "objectID": "about.html",
@@ -105,18 +84,53 @@
     "text": "Footnotes\n\n\nYou must be logged in to GitHub to submit a request.↩︎"
   },
   {
-    "objectID": "abstracts/bersson.html",
-    "href": "abstracts/bersson.html",
-    "title": "Optimal Prediction Sets for Describing Uncertainty in Categorical Data",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Graduate Student Research Seminar Series",
     "section": "",
-    "text": "Summarizing categorical data through valid and efficient prediction sets provides unambiguous statistical inference along with an accessible interpretation. To this end, we present a nonparametric framework for obtaining valid prediction sets based on a multinomial random sample which are constructed based solely on the sample and an ordering of event probabilities. We prove an ordering obtained based on accurate indirect information results in the prediction set with the smallest expected cardinality among a reduced class of all prediction sets, and the prediction set retains validity regardless of the accuracy of the indirect information. We detail a simple algorithm to obtain the optimal prediction set where the computation time does not depend on the sample size and scales nicely with the number of species considered. Our proposed method naturally extends to a small area regime whereby information may be shared across areas such as geographic regions. We demonstrate the usefulness of our method in summarizing checklists of bird sightings across North Carolina from the widely-used eBird database\n\n\nPeter D. Hoff"
+    "text": "Time: Mondays 11:45 - 1:00 pm\nPlace: Reuben-Cooke Building 130\nInstructor: Merlise Clyde clyde@duke.edu"
   },
   {
-    "objectID": "abstracts/bersson.html#abstract",
-    "href": "abstracts/bersson.html#abstract",
-    "title": "Optimal Prediction Sets for Describing Uncertainty in Categorical Data",
+    "objectID": "index.html#fall-schedule-fa-calendar-days",
+    "href": "index.html#fall-schedule-fa-calendar-days",
+    "title": "Graduate Student Research Seminar Series",
+    "section": "Fall Schedule ",
+    "text": "Fall Schedule \n\n\n\n\n\n\n  \n    \n    \n    \n    \n  \n  \n    \n    \n      Date\n      Moderator\n      Speaker\n      Title\n    \n  \n  \n    28 Aug\nKat Husar\n\nCarol Wang\nTree Boosting for Conditional Density Estimation\n\n    \n\nZeki Kazan\nPrior-itizing Privacy: A Bayesian Approach to Setting the Privacy Budget in Differential Privacy\n\n    4 Sep\nLabor Day\n\n\n\n    \nNo Talks\n\n\n\n    11 Sep\nBennedetta Bruni\n\nJustin Weltz\nExperimental Designs for Heteroskedastic Variance\n\n    \n\nDevin Johnson\nComparison and Bayesian Estimation of Feature Allocations\n\n    18 Sep\nHoujie Wang\n\nIrene Ji\nBayesian Fault Localization for Software Testing\n\n    \n\nOlivier Binette\nFeedback-Driven ML: A Proposal for Harnessing Subject-Matter Expertise in the Model Development Cycle\n\n    25 Sep\nBonjung Sung\n\nBetsy Bersson\nOptimal Prediction Sets for Describing Uncertainty in Categorical Data\n\n    \n\nMichael Christensen\nAn Eclectic Overview of MCMC Tricks and Tools for Sampling from Tricky Posteriors\n\n    2 Oct\nFaculty Meeting\n\n\n\n    \nNo Talks\n\n\n\n    9 Oct\nLeah Johnson\n\nYunran Chen\n\n    \n\nRihui Ou\n\n    16 Oct\nFall Break\n\n\n\n    \nNo Talks\n\n\n\n    23 Oct\nAihua Li\n\nKeru Wu\n\n    \n\nJoseph Lawson\n\n    30 Oct\nSuchismita Roy\n\nXiaojun Zheng\n\n    \n\nRaphaël Morsomme\n\n    6 Nov\nFaculty Meeting\n\n\n\n    \nNo Talks\n\n\n\n    13 Nov\nCaitrin Murphy\n\nBrian Kundinger\n\n    \n\nEd Tam\n\n    20 Nov\nYen-Chun Liu\n\nAndrea Aveni\n\n    \n\nYoungsoo Baek\n\n    27 Nov\nLorenzo Mauri\n\nAlexander Dombowsky\n\n    \n\nRick Presman\n\n    4 Dec\nFaculty Meeting\n\n\n\n    \nNo Talks"
+  },
+  {
+    "objectID": "index.html#spring-schedule-fa-calendar-days",
+    "href": "index.html#spring-schedule-fa-calendar-days",
+    "title": "Graduate Student Research Seminar Series",
+    "section": "Spring Schedule ",
+    "text": "Spring Schedule \n\n\n\n\n\n\n  \n    \n    \n    \n    \n  \n  \n    \n    \n      Date\n      Moderator\n      Speaker\n      Title\n    \n  \n  \n    15 Jan\nMLK Holiday\n\n\n\n    \nNo Talks\n\n\n\n    22 Jan\nHold for Search\n\n\n\n    29 Jan\nHold for Search\n\n\n\n    5 Feb\nFaculty Meeting\n\n\n\n    \nNo Talks\n\n\n\n    12 Feb\nPiotr Suder\n\nJoe Mathews\n\n    \n\nEmily Tallman\n\n    19 Feb\nYueqi Guo\n\nJennifer Kampe\n\n    \n\nBo Liu\n\n    26 Feb\nLuke Vrotsos\n\nYuren Zhou\n\n    \n\nSteve Winter\n\n    4 Mar\nFaculty Meeting\n\n\n\n    \nNo Talks\n\n\n\n    11 Mar\nSpring Break\n\n\n\n    \nNo Talks\n\n\n\n    18 Mar\nShuo Wang\n\nKevin Li\n\n    \n\nChristine Shen\n\n    25 Mar\nJaehoan Kim\n\nGlenn Palmer\n\n    \n\nCathy Lee\n\n    1 Apr\nFaculty Meeting\n\n\n\n    \nNo Talks\n\n\n\n    8 Apr\nGyeonghun Kang\n\nRiccardo Rossetti\n\n    \n\nJohn Miller\n\n    15 Apr\nNeubrander, Marie\n\nNathan Varberg\n\n    \n\nSam Rosen\n\n    22 Apr\nReading Period\n\n\n\n    \nNo Talks"
+  },
+  {
+    "objectID": "abstracts/kazan.html",
+    "href": "abstracts/kazan.html",
+    "title": "Prior-itizing Privacy: A Bayesian Approach to Setting the Privacy Budget in Differential Privacy",
     "section": "",
-    "text": "Summarizing categorical data through valid and efficient prediction sets provides unambiguous statistical inference along with an accessible interpretation. To this end, we present a nonparametric framework for obtaining valid prediction sets based on a multinomial random sample which are constructed based solely on the sample and an ordering of event probabilities. We prove an ordering obtained based on accurate indirect information results in the prediction set with the smallest expected cardinality among a reduced class of all prediction sets, and the prediction set retains validity regardless of the accuracy of the indirect information. We detail a simple algorithm to obtain the optimal prediction set where the computation time does not depend on the sample size and scales nicely with the number of species considered. Our proposed method naturally extends to a small area regime whereby information may be shared across areas such as geographic regions. We demonstrate the usefulness of our method in summarizing checklists of bird sightings across North Carolina from the widely-used eBird database\n\n\nPeter D. Hoff"
+    "text": "When releasing outputs from confidential data, agencies need to balance the analytical usefulness of the released data with the obligation to protect data subjects’ confidentiality. For releases satisfying differential privacy, this balance is reflected by the parameter \\(\\varepsilon\\), known as the privacy budget. In practice, it can be difficult for agencies to select and interpret \\(\\varepsilon\\). We use Bayesian posterior probabilities of disclosure to provide a framework for setting \\(\\varepsilon\\). The agency decides how much posterior risk it is willing to accept in a data release at various levels of prior risk. Using a mathematical relationship among these probabilities and \\(\\varepsilon\\), the agency selects the maximum \\(\\varepsilon\\) that ensures the posterior-to-prior ratios are acceptable for all values of prior disclosure risk. The framework applies to any differentially private mechanism.\n\n\nJerry Reiter"
+  },
+  {
+    "objectID": "abstracts/kazan.html#abstract",
+    "href": "abstracts/kazan.html#abstract",
+    "title": "Prior-itizing Privacy: A Bayesian Approach to Setting the Privacy Budget in Differential Privacy",
+    "section": "",
+    "text": "When releasing outputs from confidential data, agencies need to balance the analytical usefulness of the released data with the obligation to protect data subjects’ confidentiality. For releases satisfying differential privacy, this balance is reflected by the parameter \\(\\varepsilon\\), known as the privacy budget. In practice, it can be difficult for agencies to select and interpret \\(\\varepsilon\\). We use Bayesian posterior probabilities of disclosure to provide a framework for setting \\(\\varepsilon\\). The agency decides how much posterior risk it is willing to accept in a data release at various levels of prior risk. Using a mathematical relationship among these probabilities and \\(\\varepsilon\\), the agency selects the maximum \\(\\varepsilon\\) that ensures the posterior-to-prior ratios are acceptable for all values of prior disclosure risk. The framework applies to any differentially private mechanism.\n\n\nJerry Reiter"
+  },
+  {
+    "objectID": "abstracts/binette.html",
+    "href": "abstracts/binette.html",
+    "title": "Performance Rank Reversals: An Overlooked Challenge in the Evaluation of Machine Learning Algorithms",
+    "section": "",
+    "text": "I’ll talk about research done at Los Alamos National Laboratory over the summer.\n\n\nJerry Reiter"
+  },
+  {
+    "objectID": "abstracts/binette.html#abstract",
+    "href": "abstracts/binette.html#abstract",
+    "title": "Performance Rank Reversals: An Overlooked Challenge in the Evaluation of Machine Learning Algorithms",
+    "section": "",
+    "text": "I’ll talk about research done at Los Alamos National Laboratory over the summer.\n\n\nJerry Reiter"
   },
   {
     "objectID": "abstracts/devinjohnson.html",
