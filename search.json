@@ -1,5 +1,75 @@
 [
   {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "This course provides graduate students with the opportunity to share their research with other students and faculty, as well as practice giving good research presentations. Each session will consist of either two short presentations or one long presentation. Presenters will receive constructive feedback from both myself and the audience, on both the presentation and research content. Students are encouraged (and expected) to contribute to discussions - this helps both the presenter and your own research!"
+  },
+  {
+    "objectID": "about.html#description",
+    "href": "about.html#description",
+    "title": "About",
+    "section": "",
+    "text": "This course provides graduate students with the opportunity to share their research with other students and faculty, as well as practice giving good research presentations. Each session will consist of either two short presentations or one long presentation. Presenters will receive constructive feedback from both myself and the audience, on both the presentation and research content. Students are encouraged (and expected) to contribute to discussions - this helps both the presenter and your own research!"
+  },
+  {
+    "objectID": "about.html#logistics",
+    "href": "about.html#logistics",
+    "title": "About",
+    "section": "Logistics",
+    "text": "Logistics\n\nSpeakers are expected to present in-person. A Zoom link will be available only for students who cannot physically attend or external audience members.\nStudents presenting will invite their PhD advisors and committee members to attend.\nAll PhD students in Statistical Science are recommended to register for STA 701S each semester, and all PhD students in Statistical Science in Years 3+ of studies will be required to register and present in STA 701S each year.\nThere will be two talks scheduled in each class. Each talk should be no longer than 25 minutes, which leaves ample time for questions & suggestions from the audience.\nFirst and second year PhD students will serve as Moderators, who will introduce the speakers and facilitate Q&A.\nAny students who will need to change the date of the presentation should submit a request in Github.1 Please provide the alternate date(s) and confirmation that the other individual is willing to switch.\nPlease submit titles and abstracts at least one week in advance."
+  },
+  {
+    "objectID": "about.html#footnotes",
+    "href": "about.html#footnotes",
+    "title": "About",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nYou must be logged in to GitHub to submit a request.↩︎"
+  },
+  {
+    "objectID": "abstracts/devinjohnson.html",
+    "href": "abstracts/devinjohnson.html",
+    "title": "Comparison and Bayesian Estimation of Feature Allocations",
+    "section": "",
+    "text": "Feature allocation models postulate a sampling distribution whose parameters are derived from shared features. Bayesian models place a prior distribution on the feature allocation, and Markov chain Monte Carlo is typically used for model fitting, which results in thousands of feature allocations sampled from the posterior distribution. Based on these samples, we propose a method to provide a point estimate of a latent feature allocation. First, we introduce FARO loss, a function between feature allocations which satisfies quasimetric properties and allows for comparing feature allocations with differing numbers of features. The loss involves finding the optimal feature ordering among all possible orderings, but computational feasibility is achieved by framing this task as a linear assignment problem. We also introduce the FANGS algorithm to obtain a Bayes estimate by minimizing the Monte Carlo estimate of the posterior expected FARO loss using the available samples. FANGS can produce an estimate other than those visited in the Markov chain. We provide an investigation of existing methods and our proposed methods. Our loss function and search algorithm are implemented in the fangs package in R.\n\n\nEric Laber, Simon Mak, and Jason Xu"
+  },
+  {
+    "objectID": "abstracts/devinjohnson.html#abstract",
+    "href": "abstracts/devinjohnson.html#abstract",
+    "title": "Comparison and Bayesian Estimation of Feature Allocations",
+    "section": "",
+    "text": "Feature allocation models postulate a sampling distribution whose parameters are derived from shared features. Bayesian models place a prior distribution on the feature allocation, and Markov chain Monte Carlo is typically used for model fitting, which results in thousands of feature allocations sampled from the posterior distribution. Based on these samples, we propose a method to provide a point estimate of a latent feature allocation. First, we introduce FARO loss, a function between feature allocations which satisfies quasimetric properties and allows for comparing feature allocations with differing numbers of features. The loss involves finding the optimal feature ordering among all possible orderings, but computational feasibility is achieved by framing this task as a linear assignment problem. We also introduce the FANGS algorithm to obtain a Bayes estimate by minimizing the Monte Carlo estimate of the posterior expected FARO loss using the available samples. FANGS can produce an estimate other than those visited in the Markov chain. We provide an investigation of existing methods and our proposed methods. Our loss function and search algorithm are implemented in the fangs package in R.\n\n\nEric Laber, Simon Mak, and Jason Xu"
+  },
+  {
+    "objectID": "abstracts/kazan.html",
+    "href": "abstracts/kazan.html",
+    "title": "Prior-itizing Privacy: A Bayesian Approach to Setting the Privacy Budget in Differential Privacy",
+    "section": "",
+    "text": "When releasing outputs from confidential data, agencies need to balance the analytical usefulness of the released data with the obligation to protect data subjects’ confidentiality. For releases satisfying differential privacy, this balance is reflected by the parameter \\(\\varepsilon\\), known as the privacy budget. In practice, it can be difficult for agencies to select and interpret \\(\\varepsilon\\). We use Bayesian posterior probabilities of disclosure to provide a framework for setting \\(\\varepsilon\\). The agency decides how much posterior risk it is willing to accept in a data release at various levels of prior risk. Using a mathematical relationship among these probabilities and \\(\\varepsilon\\), the agency selects the maximum \\(\\varepsilon\\) that ensures the posterior-to-prior ratios are acceptable for all values of prior disclosure risk. The framework applies to any differentially private mechanism.\n\n\nJerry Reiter"
+  },
+  {
+    "objectID": "abstracts/kazan.html#abstract",
+    "href": "abstracts/kazan.html#abstract",
+    "title": "Prior-itizing Privacy: A Bayesian Approach to Setting the Privacy Budget in Differential Privacy",
+    "section": "",
+    "text": "When releasing outputs from confidential data, agencies need to balance the analytical usefulness of the released data with the obligation to protect data subjects’ confidentiality. For releases satisfying differential privacy, this balance is reflected by the parameter \\(\\varepsilon\\), known as the privacy budget. In practice, it can be difficult for agencies to select and interpret \\(\\varepsilon\\). We use Bayesian posterior probabilities of disclosure to provide a framework for setting \\(\\varepsilon\\). The agency decides how much posterior risk it is willing to accept in a data release at various levels of prior risk. Using a mathematical relationship among these probabilities and \\(\\varepsilon\\), the agency selects the maximum \\(\\varepsilon\\) that ensures the posterior-to-prior ratios are acceptable for all values of prior disclosure risk. The framework applies to any differentially private mechanism.\n\n\nJerry Reiter"
+  },
+  {
+    "objectID": "abstracts/rihuiou.html",
+    "href": "abstracts/rihuiou.html",
+    "title": "Scalable Bayesian Inference for Time Series via Divide-and-Conquer",
+    "section": "",
+    "text": "Bayesian computational algorithms tend to scale poorly as data size increases. This had led to the de- velopment of divide-and-conquer-based approaches for scalable inference. These divide the data into subsets, perform inference for each subset in parallel, and then combine these inferences. While appeal- ing theoretical properties and practical performance have been demonstrated for independent observa- tions, scalable inference for dependent data remains challenging. In this work, we study the problem of Bayesian inference from very long time series. The literature in this area focuses mainly on approximate approaches that lack any rigorous theoretical guarantees and may provide arbitrarily poor accuracy in practice. We propose a simple and scalable divide-and-conquer method, and provide accuracy guaran- tees. Numerical simulations and real data applications demonstrate the effectiveness of our approach\n\n\nDavid DUnson"
+  },
+  {
+    "objectID": "abstracts/rihuiou.html#abstract",
+    "href": "abstracts/rihuiou.html#abstract",
+    "title": "Scalable Bayesian Inference for Time Series via Divide-and-Conquer",
+    "section": "",
+    "text": "Bayesian computational algorithms tend to scale poorly as data size increases. This had led to the de- velopment of divide-and-conquer-based approaches for scalable inference. These divide the data into subsets, perform inference for each subset in parallel, and then combine these inferences. While appeal- ing theoretical properties and practical performance have been demonstrated for independent observa- tions, scalable inference for dependent data remains challenging. In this work, we study the problem of Bayesian inference from very long time series. The literature in this area focuses mainly on approximate approaches that lack any rigorous theoretical guarantees and may provide arbitrarily poor accuracy in practice. We propose a simple and scalable divide-and-conquer method, and provide accuracy guaran- tees. Numerical simulations and real data applications demonstrate the effectiveness of our approach\n\n\nDavid DUnson"
+  },
+  {
     "objectID": "abstracts/justinweltz.html",
     "href": "abstracts/justinweltz.html",
     "title": "Experimental Designs for Heteroskedastic Variance",
@@ -12,6 +82,48 @@
     "title": "Experimental Designs for Heteroskedastic Variance",
     "section": "",
     "text": "Most linear experimental design problems assume homogeneous variance although heteroskedastic noise is present in many realistic settings. Let a learner have access to a finite set of measurement vectors \\(\\mathcal{X}\\subset \\mathbb{R}^d\\) that can be probed to receive noisy linear responses of the form \\(y=x^{\\top}\\theta^{\\ast}+\\eta\\). Here \\(\\theta^{\\ast}\\in \\mathbb{R}^d\\) is an unknown parameter vector, and \\(\\eta\\) is independent mean-zero \\(\\sigma_x^2\\)-sub-Gaussian noise defined by a flexible heteroskedastic variance model, \\(\\sigma_x^2 = x^{\\top}\\Sigma^{\\ast}x\\). Assuming that \\(\\Sigma^{\\ast}\\in \\mathbb{R}^{d\\times d}\\) is an unknown matrix, we propose, analyze and empirically evaluate a novel design for uniformly bounding estimation error of the variance parameters, \\(\\sigma_x^2\\). We demonstrate the benefits of this method with two adaptive experimental design problems under heteroskedastic noise, fixed confidence transductive best-arm identification and level-set identification and prove the first instance-dependent lower bounds in these settings. Lastly, we construct near-optimal algorithms and demonstrate the large improvements in sample complexity gained from accounting for heteroskedastic variance in these designs empirically.\n\n\nAlexander Volfovsky and Eric Laber"
+  },
+  {
+    "objectID": "abstracts/binette.html",
+    "href": "abstracts/binette.html",
+    "title": "Performance Rank Reversals: An Overlooked Challenge in the Evaluation of Machine Learning Algorithms",
+    "section": "",
+    "text": "I’ll talk about research done at Los Alamos National Laboratory over the summer.\n\n\nJerry Reiter"
+  },
+  {
+    "objectID": "abstracts/binette.html#abstract",
+    "href": "abstracts/binette.html#abstract",
+    "title": "Performance Rank Reversals: An Overlooked Challenge in the Evaluation of Machine Learning Algorithms",
+    "section": "",
+    "text": "I’ll talk about research done at Los Alamos National Laboratory over the summer.\n\n\nJerry Reiter"
+  },
+  {
+    "objectID": "abstracts/carolwang.html",
+    "href": "abstracts/carolwang.html",
+    "title": "Tree boosting for conditional density estimation",
+    "section": "",
+    "text": "In many real-world situations, modeling complex conditional distributions is crucial. We developed a tree boosting algorithm for learning conditional densities by forward stagewise fitting of an additive tree ensemble. The core idea of our algorithm is to use covariate-dependent probability measures defined by partition trees and sequentially “subtract” these probability measures from observations to remove the distributional structure from the underlying sampling distribution. Our algorithm offers the flexibility of employing any binary classifier trained under log loss to estimate branching probabilities within partition trees. The performance is further improved with scale-specific shrinkage. Notably, our algorithm not only allows evaluating the fitted density analytically but also provides a generative model that can be easily sampled from. We tested the algorithm on both simulated examples and a benchmark regression dataset.\n\n\nLi Ma"
+  },
+  {
+    "objectID": "abstracts/carolwang.html#abstract",
+    "href": "abstracts/carolwang.html#abstract",
+    "title": "Tree boosting for conditional density estimation",
+    "section": "",
+    "text": "In many real-world situations, modeling complex conditional distributions is crucial. We developed a tree boosting algorithm for learning conditional densities by forward stagewise fitting of an additive tree ensemble. The core idea of our algorithm is to use covariate-dependent probability measures defined by partition trees and sequentially “subtract” these probability measures from observations to remove the distributional structure from the underlying sampling distribution. Our algorithm offers the flexibility of employing any binary classifier trained under log loss to estimate branching probabilities within partition trees. The performance is further improved with scale-specific shrinkage. Notably, our algorithm not only allows evaluating the fitted density analytically but also provides a generative model that can be easily sampled from. We tested the algorithm on both simulated examples and a benchmark regression dataset.\n\n\nLi Ma"
+  },
+  {
+    "objectID": "abstracts/bersson.html",
+    "href": "abstracts/bersson.html",
+    "title": "Optimal Prediction Sets for Describing Uncertainty in Categorical Data",
+    "section": "",
+    "text": "Summarizing categorical data through valid and efficient prediction sets provides unambiguous statistical inference along with an accessible interpretation. To this end, we present a nonparametric framework for obtaining valid prediction sets based on a multinomial random sample which are constructed based solely on the sample and an ordering of event probabilities. We prove an ordering obtained based on accurate indirect information results in the prediction set with the smallest expected cardinality among a reduced class of all prediction sets, and the prediction set retains validity regardless of the accuracy of the indirect information. We detail a simple algorithm to obtain the optimal prediction set where the computation time does not depend on the sample size and scales nicely with the number of species considered. Our proposed method naturally extends to a small area regime whereby information may be shared across areas such as geographic regions. We demonstrate the usefulness of our method in summarizing checklists of bird sightings across North Carolina from the widely-used eBird database\n\n\nPeter D. Hoff"
+  },
+  {
+    "objectID": "abstracts/bersson.html#abstract",
+    "href": "abstracts/bersson.html#abstract",
+    "title": "Optimal Prediction Sets for Describing Uncertainty in Categorical Data",
+    "section": "",
+    "text": "Summarizing categorical data through valid and efficient prediction sets provides unambiguous statistical inference along with an accessible interpretation. To this end, we present a nonparametric framework for obtaining valid prediction sets based on a multinomial random sample which are constructed based solely on the sample and an ordering of event probabilities. We prove an ordering obtained based on accurate indirect information results in the prediction set with the smallest expected cardinality among a reduced class of all prediction sets, and the prediction set retains validity regardless of the accuracy of the indirect information. We detail a simple algorithm to obtain the optimal prediction set where the computation time does not depend on the sample size and scales nicely with the number of species considered. Our proposed method naturally extends to a small area regime whereby information may be shared across areas such as geographic regions. We demonstrate the usefulness of our method in summarizing checklists of bird sightings across North Carolina from the widely-used eBird database\n\n\nPeter D. Hoff"
   },
   {
     "objectID": "abstracts/ireneji.html",
@@ -42,48 +154,6 @@
     "text": "Bayesian model fitting is often reliant on Markov Chain Monte Carlo (MCMC) based methods for sampling from a target distribution. While most commonly used MCMC algorithms have theoretical guarantees of eventual convergence to the correct stationary distribution, in practice limited computational resources and poor tuning can result in failure to produce useable results. Additional obstacles to this goal may arise when dealing with a multimodal posterior distribution, when the posterior is concentrated near a submanifold with high curvature, in settings where the gradient and Hessian of the log posterior are unavailable, or due to me being bad at coding. In this talk I present an overview of a few MCMC tools and algorithms that may be used in isolation or conjunction with one another to improve MCMC performance, along with example problems that result in the failure of commonly used MCMC tools such as STAN or JAGS. Much of this work was done in conjunction with Devin Francom and Abby Nachtsheim of Los Alamos National Laboratory.\n\n\nPeter Hoff"
   },
   {
-    "objectID": "abstracts/bersson.html",
-    "href": "abstracts/bersson.html",
-    "title": "Optimal Prediction Sets for Describing Uncertainty in Categorical Data",
-    "section": "",
-    "text": "Summarizing categorical data through valid and efficient prediction sets provides unambiguous statistical inference along with an accessible interpretation. To this end, we present a nonparametric framework for obtaining valid prediction sets based on a multinomial random sample which are constructed based solely on the sample and an ordering of event probabilities. We prove an ordering obtained based on accurate indirect information results in the prediction set with the smallest expected cardinality among a reduced class of all prediction sets, and the prediction set retains validity regardless of the accuracy of the indirect information. We detail a simple algorithm to obtain the optimal prediction set where the computation time does not depend on the sample size and scales nicely with the number of species considered. Our proposed method naturally extends to a small area regime whereby information may be shared across areas such as geographic regions. We demonstrate the usefulness of our method in summarizing checklists of bird sightings across North Carolina from the widely-used eBird database\n\n\nPeter D. Hoff"
-  },
-  {
-    "objectID": "abstracts/bersson.html#abstract",
-    "href": "abstracts/bersson.html#abstract",
-    "title": "Optimal Prediction Sets for Describing Uncertainty in Categorical Data",
-    "section": "",
-    "text": "Summarizing categorical data through valid and efficient prediction sets provides unambiguous statistical inference along with an accessible interpretation. To this end, we present a nonparametric framework for obtaining valid prediction sets based on a multinomial random sample which are constructed based solely on the sample and an ordering of event probabilities. We prove an ordering obtained based on accurate indirect information results in the prediction set with the smallest expected cardinality among a reduced class of all prediction sets, and the prediction set retains validity regardless of the accuracy of the indirect information. We detail a simple algorithm to obtain the optimal prediction set where the computation time does not depend on the sample size and scales nicely with the number of species considered. Our proposed method naturally extends to a small area regime whereby information may be shared across areas such as geographic regions. We demonstrate the usefulness of our method in summarizing checklists of bird sightings across North Carolina from the widely-used eBird database\n\n\nPeter D. Hoff"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "This course provides graduate students with the opportunity to share their research with other students and faculty, as well as practice giving good research presentations. Each session will consist of either two short presentations or one long presentation. Presenters will receive constructive feedback from both myself and the audience, on both the presentation and research content. Students are encouraged (and expected) to contribute to discussions - this helps both the presenter and your own research!"
-  },
-  {
-    "objectID": "about.html#description",
-    "href": "about.html#description",
-    "title": "About",
-    "section": "",
-    "text": "This course provides graduate students with the opportunity to share their research with other students and faculty, as well as practice giving good research presentations. Each session will consist of either two short presentations or one long presentation. Presenters will receive constructive feedback from both myself and the audience, on both the presentation and research content. Students are encouraged (and expected) to contribute to discussions - this helps both the presenter and your own research!"
-  },
-  {
-    "objectID": "about.html#logistics",
-    "href": "about.html#logistics",
-    "title": "About",
-    "section": "Logistics",
-    "text": "Logistics\n\nSpeakers are expected to present in-person. A Zoom link will be available only for students who cannot physically attend or external audience members.\nStudents presenting will invite their PhD advisors and committee members to attend.\nAll PhD students in Statistical Science are recommended to register for STA 701S each semester, and all PhD students in Statistical Science in Years 3+ of studies will be required to register and present in STA 701S each year.\nThere will be two talks scheduled in each class. Each talk should be no longer than 25 minutes, which leaves ample time for questions & suggestions from the audience.\nFirst and second year PhD students will serve as Moderators, who will introduce the speakers and facilitate Q&A.\nAny students who will need to change the date of the presentation should submit a request in Github.1 Please provide the alternate date(s) and confirmation that the other individual is willing to switch.\nPlease submit titles and abstracts at least one week in advance."
-  },
-  {
-    "objectID": "about.html#footnotes",
-    "href": "about.html#footnotes",
-    "title": "About",
-    "section": "Footnotes",
-    "text": "Footnotes\n\n\nYou must be logged in to GitHub to submit a request.↩︎"
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Graduate Student Research Seminar Series",
@@ -103,61 +173,5 @@
     "title": "Graduate Student Research Seminar Series",
     "section": "Spring Schedule ",
     "text": "Spring Schedule \n\n\n\n\n\n\n  \n    \n    \n    \n    \n  \n  \n    \n    \n      Date\n      Moderator\n      Speaker\n      Title\n    \n  \n  \n    15 Jan\nMLK Holiday\n\n\n\n    \nNo Talks\n\n\n\n    22 Jan\nHold for Search\n\n\n\n    29 Jan\nHold for Search\n\n\n\n    5 Feb\nFaculty Meeting\n\n\n\n    \nNo Talks\n\n\n\n    12 Feb\nPiotr Suder\n\nJoe Mathews\n\n    \n\nEmily Tallman\n\n    19 Feb\nYueqi Guo\n\nJennifer Kampe\n\n    \n\nBo Liu\n\n    26 Feb\nLuke Vrotsos\n\nYuren Zhou\n\n    \n\nSteve Winter\n\n    4 Mar\nFaculty Meeting\n\n\n\n    \nNo Talks\n\n\n\n    11 Mar\nSpring Break\n\n\n\n    \nNo Talks\n\n\n\n    18 Mar\nShuo Wang\n\nKevin Li\n\n    \n\nChristine Shen\n\n    25 Mar\nJaehoan Kim\n\nGlenn Palmer\n\n    \n\nCathy Lee\n\n    1 Apr\nFaculty Meeting\n\n\n\n    \nNo Talks\n\n\n\n    8 Apr\nGyeonghun Kang\n\nRiccardo Rossetti\n\n    \n\nJohn Miller\n\n    15 Apr\nNeubrander, Marie\n\nNathan Varberg\n\n    \n\nSam Rosen\n\n    22 Apr\nReading Period\n\n\n\n    \nNo Talks"
-  },
-  {
-    "objectID": "abstracts/kazan.html",
-    "href": "abstracts/kazan.html",
-    "title": "Prior-itizing Privacy: A Bayesian Approach to Setting the Privacy Budget in Differential Privacy",
-    "section": "",
-    "text": "When releasing outputs from confidential data, agencies need to balance the analytical usefulness of the released data with the obligation to protect data subjects’ confidentiality. For releases satisfying differential privacy, this balance is reflected by the parameter \\(\\varepsilon\\), known as the privacy budget. In practice, it can be difficult for agencies to select and interpret \\(\\varepsilon\\). We use Bayesian posterior probabilities of disclosure to provide a framework for setting \\(\\varepsilon\\). The agency decides how much posterior risk it is willing to accept in a data release at various levels of prior risk. Using a mathematical relationship among these probabilities and \\(\\varepsilon\\), the agency selects the maximum \\(\\varepsilon\\) that ensures the posterior-to-prior ratios are acceptable for all values of prior disclosure risk. The framework applies to any differentially private mechanism.\n\n\nJerry Reiter"
-  },
-  {
-    "objectID": "abstracts/kazan.html#abstract",
-    "href": "abstracts/kazan.html#abstract",
-    "title": "Prior-itizing Privacy: A Bayesian Approach to Setting the Privacy Budget in Differential Privacy",
-    "section": "",
-    "text": "When releasing outputs from confidential data, agencies need to balance the analytical usefulness of the released data with the obligation to protect data subjects’ confidentiality. For releases satisfying differential privacy, this balance is reflected by the parameter \\(\\varepsilon\\), known as the privacy budget. In practice, it can be difficult for agencies to select and interpret \\(\\varepsilon\\). We use Bayesian posterior probabilities of disclosure to provide a framework for setting \\(\\varepsilon\\). The agency decides how much posterior risk it is willing to accept in a data release at various levels of prior risk. Using a mathematical relationship among these probabilities and \\(\\varepsilon\\), the agency selects the maximum \\(\\varepsilon\\) that ensures the posterior-to-prior ratios are acceptable for all values of prior disclosure risk. The framework applies to any differentially private mechanism.\n\n\nJerry Reiter"
-  },
-  {
-    "objectID": "abstracts/binette.html",
-    "href": "abstracts/binette.html",
-    "title": "Performance Rank Reversals: An Overlooked Challenge in the Evaluation of Machine Learning Algorithms",
-    "section": "",
-    "text": "I’ll talk about research done at Los Alamos National Laboratory over the summer.\n\n\nJerry Reiter"
-  },
-  {
-    "objectID": "abstracts/binette.html#abstract",
-    "href": "abstracts/binette.html#abstract",
-    "title": "Performance Rank Reversals: An Overlooked Challenge in the Evaluation of Machine Learning Algorithms",
-    "section": "",
-    "text": "I’ll talk about research done at Los Alamos National Laboratory over the summer.\n\n\nJerry Reiter"
-  },
-  {
-    "objectID": "abstracts/devinjohnson.html",
-    "href": "abstracts/devinjohnson.html",
-    "title": "Comparison and Bayesian Estimation of Feature Allocations",
-    "section": "",
-    "text": "Feature allocation models postulate a sampling distribution whose parameters are derived from shared features. Bayesian models place a prior distribution on the feature allocation, and Markov chain Monte Carlo is typically used for model fitting, which results in thousands of feature allocations sampled from the posterior distribution. Based on these samples, we propose a method to provide a point estimate of a latent feature allocation. First, we introduce FARO loss, a function between feature allocations which satisfies quasimetric properties and allows for comparing feature allocations with differing numbers of features. The loss involves finding the optimal feature ordering among all possible orderings, but computational feasibility is achieved by framing this task as a linear assignment problem. We also introduce the FANGS algorithm to obtain a Bayes estimate by minimizing the Monte Carlo estimate of the posterior expected FARO loss using the available samples. FANGS can produce an estimate other than those visited in the Markov chain. We provide an investigation of existing methods and our proposed methods. Our loss function and search algorithm are implemented in the fangs package in R.\n\n\nEric Laber, Simon Mak, and Jason Xu"
-  },
-  {
-    "objectID": "abstracts/devinjohnson.html#abstract",
-    "href": "abstracts/devinjohnson.html#abstract",
-    "title": "Comparison and Bayesian Estimation of Feature Allocations",
-    "section": "",
-    "text": "Feature allocation models postulate a sampling distribution whose parameters are derived from shared features. Bayesian models place a prior distribution on the feature allocation, and Markov chain Monte Carlo is typically used for model fitting, which results in thousands of feature allocations sampled from the posterior distribution. Based on these samples, we propose a method to provide a point estimate of a latent feature allocation. First, we introduce FARO loss, a function between feature allocations which satisfies quasimetric properties and allows for comparing feature allocations with differing numbers of features. The loss involves finding the optimal feature ordering among all possible orderings, but computational feasibility is achieved by framing this task as a linear assignment problem. We also introduce the FANGS algorithm to obtain a Bayes estimate by minimizing the Monte Carlo estimate of the posterior expected FARO loss using the available samples. FANGS can produce an estimate other than those visited in the Markov chain. We provide an investigation of existing methods and our proposed methods. Our loss function and search algorithm are implemented in the fangs package in R.\n\n\nEric Laber, Simon Mak, and Jason Xu"
-  },
-  {
-    "objectID": "abstracts/carolwang.html",
-    "href": "abstracts/carolwang.html",
-    "title": "Tree boosting for conditional density estimation",
-    "section": "",
-    "text": "In many real-world situations, modeling complex conditional distributions is crucial. We developed a tree boosting algorithm for learning conditional densities by forward stagewise fitting of an additive tree ensemble. The core idea of our algorithm is to use covariate-dependent probability measures defined by partition trees and sequentially “subtract” these probability measures from observations to remove the distributional structure from the underlying sampling distribution. Our algorithm offers the flexibility of employing any binary classifier trained under log loss to estimate branching probabilities within partition trees. The performance is further improved with scale-specific shrinkage. Notably, our algorithm not only allows evaluating the fitted density analytically but also provides a generative model that can be easily sampled from. We tested the algorithm on both simulated examples and a benchmark regression dataset.\n\n\nLi Ma"
-  },
-  {
-    "objectID": "abstracts/carolwang.html#abstract",
-    "href": "abstracts/carolwang.html#abstract",
-    "title": "Tree boosting for conditional density estimation",
-    "section": "",
-    "text": "In many real-world situations, modeling complex conditional distributions is crucial. We developed a tree boosting algorithm for learning conditional densities by forward stagewise fitting of an additive tree ensemble. The core idea of our algorithm is to use covariate-dependent probability measures defined by partition trees and sequentially “subtract” these probability measures from observations to remove the distributional structure from the underlying sampling distribution. Our algorithm offers the flexibility of employing any binary classifier trained under log loss to estimate branching probabilities within partition trees. The performance is further improved with scale-specific shrinkage. Notably, our algorithm not only allows evaluating the fitted density analytically but also provides a generative model that can be easily sampled from. We tested the algorithm on both simulated examples and a benchmark regression dataset.\n\n\nLi Ma"
   }
 ]

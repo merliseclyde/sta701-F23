@@ -1,43 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://github.com/merliseclyde/sta701-F23/abstracts/justinweltz.html</loc>
-    <lastmod>2023-09-25T00:16:21.848Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/merliseclyde/sta701-F23/abstracts/ireneji.html</loc>
-    <lastmod>2023-09-25T00:16:21.208Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/merliseclyde/sta701-F23/abstracts/christensen.html</loc>
-    <lastmod>2023-09-25T00:16:20.560Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/merliseclyde/sta701-F23/abstracts/bersson.html</loc>
-    <lastmod>2023-09-25T00:16:19.892Z</lastmod>
-  </url>
-  <url>
     <loc>https://github.com/merliseclyde/sta701-F23/about.html</loc>
-    <lastmod>2023-09-25T00:16:19.196Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/merliseclyde/sta701-F23/index.html</loc>
-    <lastmod>2023-09-25T00:16:18.496Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/merliseclyde/sta701-F23/abstracts/kazan.html</loc>
-    <lastmod>2023-09-25T00:16:19.556Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/merliseclyde/sta701-F23/abstracts/binette.html</loc>
-    <lastmod>2023-09-25T00:16:20.224Z</lastmod>
+    <lastmod>2023-10-08T18:13:38.620Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/merliseclyde/sta701-F23/abstracts/devinjohnson.html</loc>
-    <lastmod>2023-09-25T00:16:20.896Z</lastmod>
+    <lastmod>2023-10-08T18:10:37.948Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/merliseclyde/sta701-F23/abstracts/kazan.html</loc>
+    <lastmod>2023-10-08T18:10:37.124Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/merliseclyde/sta701-F23/abstracts/rihuiou.html</loc>
+    <lastmod>2023-10-08T18:10:36.284Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/merliseclyde/sta701-F23/abstracts/justinweltz.html</loc>
+    <lastmod>2023-10-08T18:10:35.432Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/merliseclyde/sta701-F23/abstracts/binette.html</loc>
+    <lastmod>2023-10-08T18:10:34.080Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/merliseclyde/sta701-F23/abstracts/carolwang.html</loc>
-    <lastmod>2023-09-25T00:16:21.528Z</lastmod>
+    <lastmod>2023-10-08T18:10:34.960Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/merliseclyde/sta701-F23/abstracts/bersson.html</loc>
+    <lastmod>2023-10-08T18:10:35.880Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/merliseclyde/sta701-F23/abstracts/ireneji.html</loc>
+    <lastmod>2023-10-08T18:10:36.676Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/merliseclyde/sta701-F23/abstracts/christensen.html</loc>
+    <lastmod>2023-10-08T18:10:37.528Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/merliseclyde/sta701-F23/index.html</loc>
+    <lastmod>2023-10-08T18:13:38.200Z</lastmod>
   </url>
 </urlset>
