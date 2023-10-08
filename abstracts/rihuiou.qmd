@@ -1,0 +1,28 @@
+---
+title: "Scalable Bayesian Inference for Time Series via Divide-and-Conquer"
+author: "Rihui Ou"
+date: "Oct 8, 2023"
+---
+
+
+
+
+
+## Abstract 
+
+Bayesian computational algorithms tend to scale poorly as data size increases. This had led to the de-
+velopment of divide-and-conquer-based approaches for scalable inference. These divide the data into
+subsets, perform inference for each subset in parallel, and then combine these inferences. While appeal-
+ing theoretical properties and practical performance have been demonstrated for independent observa-
+tions, scalable inference for dependent data remains challenging. In this work, we study the problem of
+Bayesian inference from very long time series. The literature in this area focuses mainly on approximate
+approaches that lack any rigorous theoretical guarantees and may provide arbitrarily poor accuracy in
+practice. We propose a simple and scalable divide-and-conquer method, and provide accuracy guaran-
+tees. Numerical simulations and real data applications demonstrate the effectiveness of our approach
+
+
+
+
+### Advisor(s)
+
+David DUnson
