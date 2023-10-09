@@ -1,0 +1,19 @@
+---
+title: "Block Covariance Matrices Estimation"
+author: "Yunran Chen"
+date: "Aug 28, 2023"
+---
+
+
+
+
+
+## Abstract 
+
+Covariance matrix estimation is challenging. An unstructured covariance matrix is unestimable if p>n. Motivated by a neuroscience study, we consider a block structure on a covariance matrix which enjoys both interpretability and statistical efficiency. Here we focus on a block covariance estimation, which holds the same block structure on its corresponding correlation matrix. We propose a novel model based on the canonical representation (Archakov and Hansen, 2020) in a Bayesian framework and allow for estimating unknown block structure by incorporating a mixture of finite mixtures (MFM) model (Miller and Harrison, 2018). We applied sequentially allocated merge-split sampler (Dahl and Newcomb, 2022) to estimate a block covariance matrix with unknown number of blocks and block allocation. Numerical studies suggest that our estimator outperforms all the alternatives in terms of accuracy and block assignment when correctly specified, and achieves comparable accuracy even when misspecified. More important, compared to the alternatives, our estimator is able to recover the underlying block structure for noisy data. We demonstrate the usefulness and flexibility of this model on neuroscience application.
+
+
+
+### Advisor(s)
+
+Dr. Surya Tokdar
