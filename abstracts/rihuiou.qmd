@@ -1,7 +1,7 @@
 ---
 title: "Scalable Bayesian Inference for Time Series via Divide-and-Conquer"
 author: "Rihui Ou"
-date: "Oct 8, 2023"
+date: "Oct 9, 2023"
 ---
 
 
