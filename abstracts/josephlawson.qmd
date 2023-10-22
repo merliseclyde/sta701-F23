@@ -1,0 +1,38 @@
+---
+title: "Bayesian Ensembling for Contextual Bandit Models"
+author: "Joseph Lawson"
+date: "Oct 23, 2023"
+---
+
+
+
+
+
+## Abstract 
+
+Contextual bandit models are a primary tool for sequential
+decision making with applications ranging from clinical trials
+to e-commerce. While there are numerous bandit algorithms
+which achieve optimal regret bounds and show strong
+performance on benchmark problems, algorithm selection
+and tuning in any given application remains a major open
+problem. We propose the Bayesian Basket of Bandits (B3),
+a meta-learning algorithm which automatically ensembles a
+set (basket) of candidate algorithms to produce an algorithm
+which dominates all those in the basket. The method
+works by treating the evolution of a bandit algorithm as a
+Markov decision process in which the states are posterior
+distributions over model parameters and subsequently
+applying approximate Bayesian dynamic programming
+to learn an optimal ensemble. We derive both Bayesian
+and frequentist convergence results for the cumulative
+discounted utility. In simulation experiments, the proposed
+method provides lower regret than state-of-the-art algorithms
+including Thompson Sampling, upper confidence bound
+methods, and Information-Directed sampling.
+
+
+
+### Advisor(s)
+
+Eric Laber
