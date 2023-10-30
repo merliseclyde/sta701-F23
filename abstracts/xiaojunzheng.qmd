@@ -1,0 +1,20 @@
+---
+title: "BLAST: Bayesian Online Structure-aware Change-point Detection"
+author: "Xiaojun Zheng"
+date: "Oct 30, 2023"
+---
+
+
+
+
+
+## Abstract 
+
+Gaussian Markov random fields (GMRFs) are probabilistic graphical models widely used in spatial statistics and related fields to model dependencies over spatial structures. Deep Gaussian Markov Random Fields (Deep GMRF) extend traditional GMRFs by integrating deep learning techniques, enabling the model to capture more complex and non-linear relationships in the data. This hybrid approach combines the interpretability and structure of GMRFs with the flexibility and representational power of deep neural networks. For image data, there are a broad array of interpretable features such as edges, blurs, and shapes, that may be useful for monitoring. We propose a new method, called Bayesian Online Structure-aware Change Detection (BLAST), which Learns important image features via offline pre-change data via the deep GMRF, and then integrates the trained model within Bayesian change-point detection for scalable monitoring. We investigate the effectiveness of BLAST in a suite of numerical experiments.
+
+
+
+
+### Advisor(s)
+
+Simon Mak

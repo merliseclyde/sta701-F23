@@ -1,0 +1,21 @@
+---
+title: "Data-augmentation Markov chain Monte Carlo for fitting semi-Markov breast cancer models to individual screens"
+author: "Raphael Morsomme"
+date: "Oct 30, 2023"
+---
+
+
+
+
+
+## Abstract 
+
+Compartmental models offer a mechanistic representation of the evolution of breast cancer over time. These models are often assumed to possess the Markovian property for mathematical convenience. In this paper, we introduce a semi-Markov model that allows for indolent pre-clinical cancer and design a novel data-augmentation Markov chain Monte Carlo sampling algorithm for fitting this model to individual screening and diagnosis histories. Our fully Bayesian approach properly accounts for the uncertainty in the exact onset time of pre-clinical cancers by treating these as latent variables. We show that the sampling algorithm swiftly explores the joint posterior distribution of the model parameters and the latent variables and that the Markov chain underlying the algorithm is uniformly ergodic. We illustrate the usefulness of our semi-Markov model by analyzing a data set of 80,000 women from the Breast Cancer Surveillance Consortium and discuss its applicability to other processes which are partially observed such as ovarian cancer.
+
+
+
+
+### Advisor(s)
+
+Prof. Jason Xu
+
