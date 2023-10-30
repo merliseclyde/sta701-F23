@@ -1,59 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://github.com/merliseclyde/sta701-F23/index.html</loc>
-    <lastmod>2023-10-22T16:02:43.850Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/merliseclyde/sta701-F23/abstracts/rihuiou.html</loc>
-    <lastmod>2023-10-22T16:00:03.906Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/merliseclyde/sta701-F23/abstracts/christensen.html</loc>
-    <lastmod>2023-10-22T16:00:03.274Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/merliseclyde/sta701-F23/abstracts/keruwu.html</loc>
-    <lastmod>2023-10-22T16:00:02.642Z</lastmod>
+    <loc>https://github.com/merliseclyde/sta701-F23/abstracts/bersson.html</loc>
+    <lastmod>2023-10-30T01:26:33.655Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/merliseclyde/sta701-F23/abstracts/ireneji.html</loc>
-    <lastmod>2023-10-22T16:00:02.022Z</lastmod>
+    <lastmod>2023-10-30T01:26:33.047Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/merliseclyde/sta701-F23/abstracts/bersson.html</loc>
-    <lastmod>2023-10-22T16:00:01.414Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/merliseclyde/sta701-F23/abstracts/josephlawson.html</loc>
-    <lastmod>2023-10-22T16:00:00.758Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/merliseclyde/sta701-F23/about.html</loc>
-    <lastmod>2023-10-22T15:59:59.090Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/merliseclyde/sta701-F23/abstracts/kazan.html</loc>
-    <lastmod>2023-10-22T16:00:01.090Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/merliseclyde/sta701-F23/abstracts/yunranchen.html</loc>
-    <lastmod>2023-10-22T16:00:01.726Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/merliseclyde/sta701-F23/abstracts/carolwang.html</loc>
-    <lastmod>2023-10-22T16:00:02.334Z</lastmod>
+    <loc>https://github.com/merliseclyde/sta701-F23/abstracts/xiaojunzheng.html</loc>
+    <lastmod>2023-10-30T01:26:32.459Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/merliseclyde/sta701-F23/abstracts/justinweltz.html</loc>
-    <lastmod>2023-10-22T16:00:02.954Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/merliseclyde/sta701-F23/abstracts/binette.html</loc>
-    <lastmod>2023-10-22T16:00:03.598Z</lastmod>
+    <lastmod>2023-10-30T01:26:31.835Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/merliseclyde/sta701-F23/abstracts/devinjohnson.html</loc>
-    <lastmod>2023-10-22T16:00:04.218Z</lastmod>
+    <lastmod>2023-10-30T01:26:31.247Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/merliseclyde/sta701-F23/abstracts/kazan.html</loc>
+    <lastmod>2023-10-30T01:26:30.643Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/merliseclyde/sta701-F23/abstracts/rihuiou.html</loc>
+    <lastmod>2023-10-30T01:26:30.019Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/merliseclyde/sta701-F23/index.html</loc>
+    <lastmod>2023-10-30T01:26:29.343Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/merliseclyde/sta701-F23/about.html</loc>
+    <lastmod>2023-10-30T01:23:57.363Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/merliseclyde/sta701-F23/abstracts/christensen.html</loc>
+    <lastmod>2023-10-30T01:26:29.699Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/merliseclyde/sta701-F23/abstracts/josephlawson.html</loc>
+    <lastmod>2023-10-30T01:26:30.323Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/merliseclyde/sta701-F23/abstracts/yunranchen.html</loc>
+    <lastmod>2023-10-30T01:26:30.943Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/merliseclyde/sta701-F23/abstracts/binette.html</loc>
+    <lastmod>2023-10-30T01:26:31.539Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/merliseclyde/sta701-F23/abstracts/carolwang.html</loc>
+    <lastmod>2023-10-30T01:26:32.151Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/merliseclyde/sta701-F23/abstracts/raphaelmorsomme.html</loc>
+    <lastmod>2023-10-30T01:26:32.763Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/merliseclyde/sta701-F23/abstracts/keruwu.html</loc>
+    <lastmod>2023-10-30T01:26:33.351Z</lastmod>
   </url>
 </urlset>
