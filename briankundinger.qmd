@@ -1,0 +1,11 @@
+---
+title: "Variational Beta Linkage"
+author: "Brian Kundinger"
+date: "11/13/2023"
+---
+
+## Abstract 
+
+Bipartite record linkage is the task of merging two duplicate-free databases in the absence of unique identifiers. Bayesian approaches to bipartite record linkage perform well in practice on small scale problems, while offering uncertainty quantification and transitivity of matching decisions. However, these approaches rely on Markov chain Monte Carlo (MCMC) for posterior inference, limiting their scalability. In this paper, we provide a variational approximation of a Bayesian bipartite record linkage model. Through the use of hashing and a re-parameterization of the approximating variational distribution, we obtain an algorithm that grows linearly with the number of records in the smaller database. In a series of experiments, we demonstrate that the variational approximation attains comparable accuracy to using MCMC, at a significantly decreased computational cost.
+
+## Advisor
