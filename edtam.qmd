@@ -1,0 +1,16 @@
+---
+title: "A Fast Spanning Tree Sampler"
+author: "Edric Tam"
+date: "11/13/2023"
+---
+
+## Abstract 
+
+Algorithms for sampling random spanning trees are extensively studied in probability and theoretical computer science. Existing samplers, such as the celebrated Aldous-Broder algorithm, can be drastically slowed when the underlying graph has bottlenecks. Researchers often bypass such issues by resorting to approximate samplers or extraneous regularity assumptions. 
+
+I present a novel algorithm that improves upon existing samplers such as Aldous-Broder. This novel sampler is exact and fully general (no regularity assumptions needed). It works well even if the underlying graph has arbitrarily small bottlenecks. I provide both theory and simulations that demonstrate the efficiency of this algorithm. Since I am (nominally) a Bayesian statistician, I illustrate the use of this algorithm in statistics by proposing a Bayesian model that utilizes this sampler for posterior simulation. 
+
+### Advisor(s)
+
+David Dunson. Joint work with Leo Duan at University of Florida. 
+
