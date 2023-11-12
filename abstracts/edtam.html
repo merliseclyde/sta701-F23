@@ -6,10 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Brian Kundinger">
+<meta name="author" content="Edric Tam">
 <meta name="dcterms.date" content="2023-11-13">
 
-<title>STA 701S 2023-2024 - Variational Beta Linkage</title>
+<title>STA 701S 2023-2024 - A Fast Spanning Tree Sampler</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -25,22 +25,22 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -63,7 +63,7 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../styles.css">
 </head>
 
 <body class="nav-fixed">
@@ -73,7 +73,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">STA 701S 2023-2024</span>
     </a>
   </div>
@@ -84,11 +84,11 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html" rel="" target="">
+    <a class="nav-link" href="../index.html" rel="" target="">
  <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./about.html" rel="" target="">
+    <a class="nav-link" href="../about.html" rel="" target="">
  <span class="menu-text">About</span></a>
   </li>  
 </ul>
@@ -107,8 +107,10 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#abstract" id="toc-abstract" class="nav-link active" data-scroll-target="#abstract">Abstract</a></li>
-  <li><a href="#advisor" id="toc-advisor" class="nav-link" data-scroll-target="#advisor">Advisor</a></li>
+  <li><a href="#abstract" id="toc-abstract" class="nav-link active" data-scroll-target="#abstract">Abstract</a>
+  <ul class="collapse">
+  <li><a href="#advisors" id="toc-advisors" class="nav-link" data-scroll-target="#advisors">Advisor(s)</a></li>
+  </ul></li>
   </ul>
 <div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/merliseclyde/sta701-F23/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
     </div>
@@ -117,7 +119,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Variational Beta Linkage</h1>
+<h1 class="title">A Fast Spanning Tree Sampler</h1>
 </div>
 
 
@@ -127,7 +129,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Author</div>
     <div class="quarto-title-meta-contents">
-             <p>Brian Kundinger </p>
+             <p>Edric Tam </p>
           </div>
   </div>
     
@@ -146,12 +148,14 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="abstract" class="level2">
 <h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
-<p>Bipartite record linkage is the task of merging two duplicate-free databases in the absence of unique identifiers. Bayesian approaches to bipartite record linkage perform well in practice on small scale problems, while offering uncertainty quantification and transitivity of matching decisions. However, these approaches rely on Markov chain Monte Carlo (MCMC) for posterior inference, limiting their scalability. In this paper, we provide a variational approximation of a Bayesian bipartite record linkage model. Through the use of hashing and a re-parameterization of the approximating variational distribution, we obtain an algorithm that grows linearly with the number of records in the smaller database. In a series of experiments, we demonstrate that the variational approximation attains comparable accuracy to using MCMC, at a significantly decreased computational cost.</p>
+<p>Algorithms for sampling random spanning trees are extensively studied in probability and theoretical computer science. Existing samplers, such as the celebrated Aldous-Broder algorithm, can be drastically slowed when the underlying graph has bottlenecks. Researchers often bypass such issues by resorting to approximate samplers or extraneous regularity assumptions.</p>
+<p>I present a novel algorithm that improves upon existing samplers such as Aldous-Broder. This novel sampler is exact and fully general (no regularity assumptions needed). It works well even if the underlying graph has arbitrarily small bottlenecks. I provide both theory and simulations that demonstrate the efficiency of this algorithm. Since I am (nominally) a Bayesian statistician, I illustrate the use of this algorithm in statistics by proposing a Bayesian model that utilizes this sampler for posterior simulation.</p>
+<section id="advisors" class="level3">
+<h3 class="anchored" data-anchor-id="advisors">Advisor(s)</h3>
+<p>David Dunson. Joint work with Leo Duan at University of Florida.</p>
+
+
 </section>
-<section id="advisor" class="level2">
-<h2 class="anchored" data-anchor-id="advisor">Advisor</h2>
-
-
 </section>
 
 </main> <!-- /main -->

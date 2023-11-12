@@ -1,19 +1,5 @@
 [
   {
-    "objectID": "edtam.html",
-    "href": "edtam.html",
-    "title": "A Fast Spanning Tree Sampler",
-    "section": "",
-    "text": "Algorithms for sampling random spanning trees are extensively studied in probability and theoretical computer science. Existing samplers, such as the celebrated Aldous-Broder algorithm, can be drastically slowed when the underlying graph has bottlenecks. Researchers often bypass such issues by resorting to approximate samplers or extraneous regularity assumptions.\nI present a novel algorithm that improves upon existing samplers such as Aldous-Broder. This novel sampler is exact and fully general (no regularity assumptions needed). It works well even if the underlying graph has arbitrarily small bottlenecks. I provide both theory and simulations that demonstrate the efficiency of this algorithm. Since I am (nominally) a Bayesian statistician, I illustrate the use of this algorithm in statistics by proposing a Bayesian model that utilizes this sampler for posterior simulation.\n\n\nDavid Dunson. Joint work with Leo Duan at University of Florida."
-  },
-  {
-    "objectID": "edtam.html#abstract",
-    "href": "edtam.html#abstract",
-    "title": "A Fast Spanning Tree Sampler",
-    "section": "",
-    "text": "Algorithms for sampling random spanning trees are extensively studied in probability and theoretical computer science. Existing samplers, such as the celebrated Aldous-Broder algorithm, can be drastically slowed when the underlying graph has bottlenecks. Researchers often bypass such issues by resorting to approximate samplers or extraneous regularity assumptions.\nI present a novel algorithm that improves upon existing samplers such as Aldous-Broder. This novel sampler is exact and fully general (no regularity assumptions needed). It works well even if the underlying graph has arbitrarily small bottlenecks. I provide both theory and simulations that demonstrate the efficiency of this algorithm. Since I am (nominally) a Bayesian statistician, I illustrate the use of this algorithm in statistics by proposing a Bayesian model that utilizes this sampler for posterior simulation.\n\n\nDavid Dunson. Joint work with Leo Duan at University of Florida."
-  },
-  {
     "objectID": "abstracts/xiaojunzheng.html",
     "href": "abstracts/xiaojunzheng.html",
     "title": "BLAST: Bayesian Online Structure-aware Change-point Detection",
@@ -28,18 +14,39 @@
     "text": "Gaussian Markov random fields (GMRFs) are probabilistic graphical models widely used in spatial statistics and related fields to model dependencies over spatial structures. Deep Gaussian Markov Random Fields (Deep GMRF) extend traditional GMRFs by integrating deep learning techniques, enabling the model to capture more complex and non-linear relationships in the data. This hybrid approach combines the interpretability and structure of GMRFs with the flexibility and representational power of deep neural networks. For image data, there are a broad array of interpretable features such as edges, blurs, and shapes, that may be useful for monitoring. We propose a new method, called Bayesian Online Structure-aware Change Detection (BLAST), which Learns important image features via offline pre-change data via the deep GMRF, and then integrates the trained model within Bayesian change-point detection for scalable monitoring. We investigate the effectiveness of BLAST in a suite of numerical experiments.\n\n\nSimon Mak"
   },
   {
-    "objectID": "abstracts/rihuiou.html",
-    "href": "abstracts/rihuiou.html",
-    "title": "Scalable Bayesian Inference for Time Series via Divide-and-Conquer",
+    "objectID": "abstracts/edtam.html",
+    "href": "abstracts/edtam.html",
+    "title": "A Fast Spanning Tree Sampler",
     "section": "",
-    "text": "Bayesian computational algorithms tend to scale poorly as data size increases. This had led to the de- velopment of divide-and-conquer-based approaches for scalable inference. These divide the data into subsets, perform inference for each subset in parallel, and then combine these inferences. While appeal- ing theoretical properties and practical performance have been demonstrated for independent observa- tions, scalable inference for dependent data remains challenging. In this work, we study the problem of Bayesian inference from very long time series. The literature in this area focuses mainly on approximate approaches that lack any rigorous theoretical guarantees and may provide arbitrarily poor accuracy in practice. We propose a simple and scalable divide-and-conquer method, and provide accuracy guaran- tees. Numerical simulations and real data applications demonstrate the effectiveness of our approach\n\n\nDavid DUnson"
+    "text": "Algorithms for sampling random spanning trees are extensively studied in probability and theoretical computer science. Existing samplers, such as the celebrated Aldous-Broder algorithm, can be drastically slowed when the underlying graph has bottlenecks. Researchers often bypass such issues by resorting to approximate samplers or extraneous regularity assumptions.\nI present a novel algorithm that improves upon existing samplers such as Aldous-Broder. This novel sampler is exact and fully general (no regularity assumptions needed). It works well even if the underlying graph has arbitrarily small bottlenecks. I provide both theory and simulations that demonstrate the efficiency of this algorithm. Since I am (nominally) a Bayesian statistician, I illustrate the use of this algorithm in statistics by proposing a Bayesian model that utilizes this sampler for posterior simulation.\n\n\nDavid Dunson. Joint work with Leo Duan at University of Florida."
   },
   {
-    "objectID": "abstracts/rihuiou.html#abstract",
-    "href": "abstracts/rihuiou.html#abstract",
-    "title": "Scalable Bayesian Inference for Time Series via Divide-and-Conquer",
+    "objectID": "abstracts/edtam.html#abstract",
+    "href": "abstracts/edtam.html#abstract",
+    "title": "A Fast Spanning Tree Sampler",
     "section": "",
-    "text": "Bayesian computational algorithms tend to scale poorly as data size increases. This had led to the de- velopment of divide-and-conquer-based approaches for scalable inference. These divide the data into subsets, perform inference for each subset in parallel, and then combine these inferences. While appeal- ing theoretical properties and practical performance have been demonstrated for independent observa- tions, scalable inference for dependent data remains challenging. In this work, we study the problem of Bayesian inference from very long time series. The literature in this area focuses mainly on approximate approaches that lack any rigorous theoretical guarantees and may provide arbitrarily poor accuracy in practice. We propose a simple and scalable divide-and-conquer method, and provide accuracy guaran- tees. Numerical simulations and real data applications demonstrate the effectiveness of our approach\n\n\nDavid DUnson"
+    "text": "Algorithms for sampling random spanning trees are extensively studied in probability and theoretical computer science. Existing samplers, such as the celebrated Aldous-Broder algorithm, can be drastically slowed when the underlying graph has bottlenecks. Researchers often bypass such issues by resorting to approximate samplers or extraneous regularity assumptions.\nI present a novel algorithm that improves upon existing samplers such as Aldous-Broder. This novel sampler is exact and fully general (no regularity assumptions needed). It works well even if the underlying graph has arbitrarily small bottlenecks. I provide both theory and simulations that demonstrate the efficiency of this algorithm. Since I am (nominally) a Bayesian statistician, I illustrate the use of this algorithm in statistics by proposing a Bayesian model that utilizes this sampler for posterior simulation.\n\n\nDavid Dunson. Joint work with Leo Duan at University of Florida."
+  },
+  {
+    "objectID": "abstracts/briankundinger.html",
+    "href": "abstracts/briankundinger.html",
+    "title": "Variational Beta Linkage",
+    "section": "",
+    "text": "Bipartite record linkage is the task of merging two duplicate-free databases in the absence of unique identifiers. Bayesian approaches to bipartite record linkage perform well in practice on small scale problems, while offering uncertainty quantification and transitivity of matching decisions. However, these approaches rely on Markov chain Monte Carlo (MCMC) for posterior inference, limiting their scalability. In this paper, we provide a variational approximation of a Bayesian bipartite record linkage model. Through the use of hashing and a re-parameterization of the approximating variational distribution, we obtain an algorithm that grows linearly with the number of records in the smaller database. In a series of experiments, we demonstrate that the variational approximation attains comparable accuracy to using MCMC, at a significantly decreased computational cost."
+  },
+  {
+    "objectID": "abstracts/briankundinger.html#abstract",
+    "href": "abstracts/briankundinger.html#abstract",
+    "title": "Variational Beta Linkage",
+    "section": "",
+    "text": "Bipartite record linkage is the task of merging two duplicate-free databases in the absence of unique identifiers. Bayesian approaches to bipartite record linkage perform well in practice on small scale problems, while offering uncertainty quantification and transitivity of matching decisions. However, these approaches rely on Markov chain Monte Carlo (MCMC) for posterior inference, limiting their scalability. In this paper, we provide a variational approximation of a Bayesian bipartite record linkage model. Through the use of hashing and a re-parameterization of the approximating variational distribution, we obtain an algorithm that grows linearly with the number of records in the smaller database. In a series of experiments, we demonstrate that the variational approximation attains comparable accuracy to using MCMC, at a significantly decreased computational cost."
+  },
+  {
+    "objectID": "abstracts/briankundinger.html#advisor",
+    "href": "abstracts/briankundinger.html#advisor",
+    "title": "Variational Beta Linkage",
+    "section": "Advisor",
+    "text": "Advisor"
   },
   {
     "objectID": "abstracts/kazan.html",
@@ -245,6 +252,20 @@
     "text": "Bayesian model fitting is often reliant on Markov Chain Monte Carlo (MCMC) based methods for sampling from a target distribution. While most commonly used MCMC algorithms have theoretical guarantees of eventual convergence to the correct stationary distribution, in practice limited computational resources and poor tuning can result in failure to produce useable results. Additional obstacles to this goal may arise when dealing with a multimodal posterior distribution, when the posterior is concentrated near a submanifold with high curvature, in settings where the gradient and Hessian of the log posterior are unavailable, or due to me being bad at coding. In this talk I present an overview of a few MCMC tools and algorithms that may be used in isolation or conjunction with one another to improve MCMC performance, along with example problems that result in the failure of commonly used MCMC tools such as STAN or JAGS. Much of this work was done in conjunction with Devin Francom and Abby Nachtsheim of Los Alamos National Laboratory.\n\n\nPeter Hoff"
   },
   {
+    "objectID": "abstracts/rihuiou.html",
+    "href": "abstracts/rihuiou.html",
+    "title": "Scalable Bayesian Inference for Time Series via Divide-and-Conquer",
+    "section": "",
+    "text": "Bayesian computational algorithms tend to scale poorly as data size increases. This had led to the de- velopment of divide-and-conquer-based approaches for scalable inference. These divide the data into subsets, perform inference for each subset in parallel, and then combine these inferences. While appeal- ing theoretical properties and practical performance have been demonstrated for independent observa- tions, scalable inference for dependent data remains challenging. In this work, we study the problem of Bayesian inference from very long time series. The literature in this area focuses mainly on approximate approaches that lack any rigorous theoretical guarantees and may provide arbitrarily poor accuracy in practice. We propose a simple and scalable divide-and-conquer method, and provide accuracy guaran- tees. Numerical simulations and real data applications demonstrate the effectiveness of our approach\n\n\nDavid DUnson"
+  },
+  {
+    "objectID": "abstracts/rihuiou.html#abstract",
+    "href": "abstracts/rihuiou.html#abstract",
+    "title": "Scalable Bayesian Inference for Time Series via Divide-and-Conquer",
+    "section": "",
+    "text": "Bayesian computational algorithms tend to scale poorly as data size increases. This had led to the de- velopment of divide-and-conquer-based approaches for scalable inference. These divide the data into subsets, perform inference for each subset in parallel, and then combine these inferences. While appeal- ing theoretical properties and practical performance have been demonstrated for independent observa- tions, scalable inference for dependent data remains challenging. In this work, we study the problem of Bayesian inference from very long time series. The literature in this area focuses mainly on approximate approaches that lack any rigorous theoretical guarantees and may provide arbitrarily poor accuracy in practice. We propose a simple and scalable divide-and-conquer method, and provide accuracy guaran- tees. Numerical simulations and real data applications demonstrate the effectiveness of our approach\n\n\nDavid DUnson"
+  },
+  {
     "objectID": "abstracts/ireneji.html",
     "href": "abstracts/ireneji.html",
     "title": "Bayesian Fault Localization for Software Testing",
@@ -257,26 +278,5 @@
     "title": "Bayesian Fault Localization for Software Testing",
     "section": "",
     "text": "Fault localization is a software testing activity that is critical when software failures occur. We propose a novel Bayesian fault localization method, yielding a principled and probabilistic ranking of suspicious input combinations for identifying the root causes of failures. We are currently developing methods to use the calculated probabilities for sequential test case generation.\n\n\nSimon Mak"
-  },
-  {
-    "objectID": "briankundinger.html",
-    "href": "briankundinger.html",
-    "title": "Variational Beta Linkage",
-    "section": "",
-    "text": "Bipartite record linkage is the task of merging two duplicate-free databases in the absence of unique identifiers. Bayesian approaches to bipartite record linkage perform well in practice on small scale problems, while offering uncertainty quantification and transitivity of matching decisions. However, these approaches rely on Markov chain Monte Carlo (MCMC) for posterior inference, limiting their scalability. In this paper, we provide a variational approximation of a Bayesian bipartite record linkage model. Through the use of hashing and a re-parameterization of the approximating variational distribution, we obtain an algorithm that grows linearly with the number of records in the smaller database. In a series of experiments, we demonstrate that the variational approximation attains comparable accuracy to using MCMC, at a significantly decreased computational cost."
-  },
-  {
-    "objectID": "briankundinger.html#abstract",
-    "href": "briankundinger.html#abstract",
-    "title": "Variational Beta Linkage",
-    "section": "",
-    "text": "Bipartite record linkage is the task of merging two duplicate-free databases in the absence of unique identifiers. Bayesian approaches to bipartite record linkage perform well in practice on small scale problems, while offering uncertainty quantification and transitivity of matching decisions. However, these approaches rely on Markov chain Monte Carlo (MCMC) for posterior inference, limiting their scalability. In this paper, we provide a variational approximation of a Bayesian bipartite record linkage model. Through the use of hashing and a re-parameterization of the approximating variational distribution, we obtain an algorithm that grows linearly with the number of records in the smaller database. In a series of experiments, we demonstrate that the variational approximation attains comparable accuracy to using MCMC, at a significantly decreased computational cost."
-  },
-  {
-    "objectID": "briankundinger.html#advisor",
-    "href": "briankundinger.html#advisor",
-    "title": "Variational Beta Linkage",
-    "section": "Advisor",
-    "text": "Advisor"
   }
 ]
