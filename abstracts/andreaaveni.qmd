@@ -1,0 +1,17 @@
+---
+title: "Rankings"
+
+author: "Andrea Aveni"
+
+date: "Nov 21, 2023"
+
+---
+
+## Abstract 
+
+I will deal with rankings and the distances between them. Recently, we discovered a new metric that generalizes several well-known distances. We have characterized this metric axiomatically and determined its main properties, which enable us to model rankings realistically and with high flexibility.
+
+### Advisor(s)
+
+Sayan
+

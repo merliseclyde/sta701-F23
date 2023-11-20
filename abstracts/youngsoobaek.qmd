@@ -1,0 +1,20 @@
+---
+title: "Generalized Bayes Approach to Inverse Problems with Model Misspecification"
+author: "Youngsoo Baek"
+date: "Nov 20, 2023"
+---
+
+
+
+
+
+## Abstract 
+
+I discuss a general framework for obtaining probabilistic solutions to PDE-based inverse problems when potentially the PDE is inaccurate or the noise-generating mechanism is unknown. In a generalized Bayesian formulation, the Bayesian update problem is reformulated and generalized into a regularized variational problem on the space of probability distributions of the parameter. A novel generalization of a Bayesian model comparison procedure is given for evaluating the optimality of a given loss based on its "predictive performance." A tailored sequential Monte Carlo-based approach is used to simultaneously calibrate the regularization parameter and obtain samples from the underlying posterior. Some theoretical properties of Gibbs posteriors are also presented.
+
+
+
+
+### Advisor(s)
+
+Sayan Mukherjee
