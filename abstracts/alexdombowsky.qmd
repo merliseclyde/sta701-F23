@@ -1,0 +1,20 @@
+---
+title: "Product Centered Dirichlet Processes for Dependent Clustering"
+author: "Alexander Dombowsky"
+date: "Nov 27, 2023"
+---
+
+
+
+
+
+## Abstract 
+
+While there is an immense literature on Bayesian methods for clustering, the multiview case has received little attention. This problem focuses on obtaining distinct but statistically dependent clusterings in a common set of entities for different data types. For example, clustering patients into subgroups with subgroup membership varying according to the domain of the patient variables. A challenge is how to model the across-view dependence between the partitions of patients into subgroups. The complexities of the partition space make standard methods to model dependence, such as correlation, infeasible. In this talk, we propose CLustering with Independence Centering (CLIC), a clustering prior that uses a single parameter to explicitly model dependence between clusterings across views. CLIC is induced by the product centered Dirichlet process (PCDP), a novel hierarchical prior that bridges between independent and equivalent partitions. We show appealing theoretic properties, provide a finite approximation and prove its accuracy, present a marginal Gibbs sampler for posterior computation, and derive closed form expressions for the marginal and joint partition distributions for the CLIC model. On synthetic data and in an application to pre-term birth, CLIC accurately characterizes view-specific partitions while providing inference on the dependence level.
+
+
+
+
+### Advisor(s)
+
+David B. Dunson
