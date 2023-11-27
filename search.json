@@ -1,17 +1,31 @@
 [
   {
-    "objectID": "abstracts/xiaojunzheng.html",
-    "href": "abstracts/xiaojunzheng.html",
-    "title": "BLAST: Bayesian Online Structure-aware Change-point Detection",
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
     "section": "",
-    "text": "Gaussian Markov random fields (GMRFs) are probabilistic graphical models widely used in spatial statistics and related fields to model dependencies over spatial structures. Deep Gaussian Markov Random Fields (Deep GMRF) extend traditional GMRFs by integrating deep learning techniques, enabling the model to capture more complex and non-linear relationships in the data. This hybrid approach combines the interpretability and structure of GMRFs with the flexibility and representational power of deep neural networks. For image data, there are a broad array of interpretable features such as edges, blurs, and shapes, that may be useful for monitoring. We propose a new method, called Bayesian Online Structure-aware Change Detection (BLAST), which Learns important image features via offline pre-change data via the deep GMRF, and then integrates the trained model within Bayesian change-point detection for scalable monitoring. We investigate the effectiveness of BLAST in a suite of numerical experiments.\n\n\nSimon Mak"
+    "text": "This course provides graduate students with the opportunity to share their research with other students and faculty, as well as practice giving good research presentations. Each session will consist of either two short presentations or one long presentation. Presenters will receive constructive feedback from both myself and the audience, on both the presentation and research content. Students are encouraged (and expected) to contribute to discussions - this helps both the presenter and your own research!"
   },
   {
-    "objectID": "abstracts/xiaojunzheng.html#abstract",
-    "href": "abstracts/xiaojunzheng.html#abstract",
-    "title": "BLAST: Bayesian Online Structure-aware Change-point Detection",
+    "objectID": "about.html#description",
+    "href": "about.html#description",
+    "title": "About",
     "section": "",
-    "text": "Gaussian Markov random fields (GMRFs) are probabilistic graphical models widely used in spatial statistics and related fields to model dependencies over spatial structures. Deep Gaussian Markov Random Fields (Deep GMRF) extend traditional GMRFs by integrating deep learning techniques, enabling the model to capture more complex and non-linear relationships in the data. This hybrid approach combines the interpretability and structure of GMRFs with the flexibility and representational power of deep neural networks. For image data, there are a broad array of interpretable features such as edges, blurs, and shapes, that may be useful for monitoring. We propose a new method, called Bayesian Online Structure-aware Change Detection (BLAST), which Learns important image features via offline pre-change data via the deep GMRF, and then integrates the trained model within Bayesian change-point detection for scalable monitoring. We investigate the effectiveness of BLAST in a suite of numerical experiments.\n\n\nSimon Mak"
+    "text": "This course provides graduate students with the opportunity to share their research with other students and faculty, as well as practice giving good research presentations. Each session will consist of either two short presentations or one long presentation. Presenters will receive constructive feedback from both myself and the audience, on both the presentation and research content. Students are encouraged (and expected) to contribute to discussions - this helps both the presenter and your own research!"
+  },
+  {
+    "objectID": "about.html#logistics",
+    "href": "about.html#logistics",
+    "title": "About",
+    "section": "Logistics",
+    "text": "Logistics\n\nSpeakers are expected to present in-person. A Zoom link will be available only for students who cannot physically attend or external audience members.\nStudents presenting will invite their PhD advisors and committee members to attend.\nAll PhD students in Statistical Science are recommended to register for STA 701S each semester, and all PhD students in Statistical Science in Years 3+ of studies will be required to register and present in STA 701S each year.\nThere will be two talks scheduled in each class. Each talk should be no longer than 25 minutes, which leaves ample time for questions & suggestions from the audience.\nFirst and second year PhD students will serve as Moderators, who will introduce the speakers and facilitate Q&A.\nAny students who will need to change the date of the presentation should submit a request in Github.1 Please provide the alternate date(s) and confirmation that the other individual is willing to switch.\nPlease submit titles and abstracts at least one week in advance."
+  },
+  {
+    "objectID": "about.html#footnotes",
+    "href": "about.html#footnotes",
+    "title": "About",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nYou must be logged in to GitHub to submit a request.↩︎"
   },
   {
     "objectID": "abstracts/andreaaveni.html",
@@ -26,20 +40,6 @@
     "title": "Rankings",
     "section": "",
     "text": "I will deal with rankings and the distances between them. Recently, we discovered a new metric that generalizes several well-known distances. We have characterized this metric axiomatically and determined its main properties, which enable us to model rankings realistically and with high flexibility.\n\n\nSayan"
-  },
-  {
-    "objectID": "abstracts/rihuiou.html",
-    "href": "abstracts/rihuiou.html",
-    "title": "Scalable Bayesian Inference for Time Series via Divide-and-Conquer",
-    "section": "",
-    "text": "Bayesian computational algorithms tend to scale poorly as data size increases. This had led to the de- velopment of divide-and-conquer-based approaches for scalable inference. These divide the data into subsets, perform inference for each subset in parallel, and then combine these inferences. While appeal- ing theoretical properties and practical performance have been demonstrated for independent observa- tions, scalable inference for dependent data remains challenging. In this work, we study the problem of Bayesian inference from very long time series. The literature in this area focuses mainly on approximate approaches that lack any rigorous theoretical guarantees and may provide arbitrarily poor accuracy in practice. We propose a simple and scalable divide-and-conquer method, and provide accuracy guaran- tees. Numerical simulations and real data applications demonstrate the effectiveness of our approach\n\n\nDavid DUnson"
-  },
-  {
-    "objectID": "abstracts/rihuiou.html#abstract",
-    "href": "abstracts/rihuiou.html#abstract",
-    "title": "Scalable Bayesian Inference for Time Series via Divide-and-Conquer",
-    "section": "",
-    "text": "Bayesian computational algorithms tend to scale poorly as data size increases. This had led to the de- velopment of divide-and-conquer-based approaches for scalable inference. These divide the data into subsets, perform inference for each subset in parallel, and then combine these inferences. While appeal- ing theoretical properties and practical performance have been demonstrated for independent observa- tions, scalable inference for dependent data remains challenging. In this work, we study the problem of Bayesian inference from very long time series. The literature in this area focuses mainly on approximate approaches that lack any rigorous theoretical guarantees and may provide arbitrarily poor accuracy in practice. We propose a simple and scalable divide-and-conquer method, and provide accuracy guaran- tees. Numerical simulations and real data applications demonstrate the effectiveness of our approach\n\n\nDavid DUnson"
   },
   {
     "objectID": "abstracts/briankundinger.html",
@@ -63,6 +63,125 @@
     "text": "Advisor"
   },
   {
+    "objectID": "abstracts/ireneji.html",
+    "href": "abstracts/ireneji.html",
+    "title": "Bayesian Fault Localization for Software Testing",
+    "section": "",
+    "text": "Fault localization is a software testing activity that is critical when software failures occur. We propose a novel Bayesian fault localization method, yielding a principled and probabilistic ranking of suspicious input combinations for identifying the root causes of failures. We are currently developing methods to use the calculated probabilities for sequential test case generation.\n\n\nSimon Mak"
+  },
+  {
+    "objectID": "abstracts/ireneji.html#abstract",
+    "href": "abstracts/ireneji.html#abstract",
+    "title": "Bayesian Fault Localization for Software Testing",
+    "section": "",
+    "text": "Fault localization is a software testing activity that is critical when software failures occur. We propose a novel Bayesian fault localization method, yielding a principled and probabilistic ranking of suspicious input combinations for identifying the root causes of failures. We are currently developing methods to use the calculated probabilities for sequential test case generation.\n\n\nSimon Mak"
+  },
+  {
+    "objectID": "abstracts/carolwang.html",
+    "href": "abstracts/carolwang.html",
+    "title": "Tree boosting for conditional density estimation",
+    "section": "",
+    "text": "In many real-world situations, modeling complex conditional distributions is crucial. We developed a tree boosting algorithm for learning conditional densities by forward stagewise fitting of an additive tree ensemble. The core idea of our algorithm is to use covariate-dependent probability measures defined by partition trees and sequentially “subtract” these probability measures from observations to remove the distributional structure from the underlying sampling distribution. Our algorithm offers the flexibility of employing any binary classifier trained under log loss to estimate branching probabilities within partition trees. The performance is further improved with scale-specific shrinkage. Notably, our algorithm not only allows evaluating the fitted density analytically but also provides a generative model that can be easily sampled from. We tested the algorithm on both simulated examples and a benchmark regression dataset.\n\n\nLi Ma"
+  },
+  {
+    "objectID": "abstracts/carolwang.html#abstract",
+    "href": "abstracts/carolwang.html#abstract",
+    "title": "Tree boosting for conditional density estimation",
+    "section": "",
+    "text": "In many real-world situations, modeling complex conditional distributions is crucial. We developed a tree boosting algorithm for learning conditional densities by forward stagewise fitting of an additive tree ensemble. The core idea of our algorithm is to use covariate-dependent probability measures defined by partition trees and sequentially “subtract” these probability measures from observations to remove the distributional structure from the underlying sampling distribution. Our algorithm offers the flexibility of employing any binary classifier trained under log loss to estimate branching probabilities within partition trees. The performance is further improved with scale-specific shrinkage. Notably, our algorithm not only allows evaluating the fitted density analytically but also provides a generative model that can be easily sampled from. We tested the algorithm on both simulated examples and a benchmark regression dataset.\n\n\nLi Ma"
+  },
+  {
+    "objectID": "abstracts/christensen.html",
+    "href": "abstracts/christensen.html",
+    "title": "An Eclectic Overview of MCMC Tricks and Tools for Sampling from Tricky Posteriors",
+    "section": "",
+    "text": "Bayesian model fitting is often reliant on Markov Chain Monte Carlo (MCMC) based methods for sampling from a target distribution. While most commonly used MCMC algorithms have theoretical guarantees of eventual convergence to the correct stationary distribution, in practice limited computational resources and poor tuning can result in failure to produce useable results. Additional obstacles to this goal may arise when dealing with a multimodal posterior distribution, when the posterior is concentrated near a submanifold with high curvature, in settings where the gradient and Hessian of the log posterior are unavailable, or due to me being bad at coding. In this talk I present an overview of a few MCMC tools and algorithms that may be used in isolation or conjunction with one another to improve MCMC performance, along with example problems that result in the failure of commonly used MCMC tools such as STAN or JAGS. Much of this work was done in conjunction with Devin Francom and Abby Nachtsheim of Los Alamos National Laboratory.\n\n\nPeter Hoff"
+  },
+  {
+    "objectID": "abstracts/christensen.html#abstract",
+    "href": "abstracts/christensen.html#abstract",
+    "title": "An Eclectic Overview of MCMC Tricks and Tools for Sampling from Tricky Posteriors",
+    "section": "",
+    "text": "Bayesian model fitting is often reliant on Markov Chain Monte Carlo (MCMC) based methods for sampling from a target distribution. While most commonly used MCMC algorithms have theoretical guarantees of eventual convergence to the correct stationary distribution, in practice limited computational resources and poor tuning can result in failure to produce useable results. Additional obstacles to this goal may arise when dealing with a multimodal posterior distribution, when the posterior is concentrated near a submanifold with high curvature, in settings where the gradient and Hessian of the log posterior are unavailable, or due to me being bad at coding. In this talk I present an overview of a few MCMC tools and algorithms that may be used in isolation or conjunction with one another to improve MCMC performance, along with example problems that result in the failure of commonly used MCMC tools such as STAN or JAGS. Much of this work was done in conjunction with Devin Francom and Abby Nachtsheim of Los Alamos National Laboratory.\n\n\nPeter Hoff"
+  },
+  {
+    "objectID": "abstracts/xiaojunzheng.html",
+    "href": "abstracts/xiaojunzheng.html",
+    "title": "BLAST: Bayesian Online Structure-aware Change-point Detection",
+    "section": "",
+    "text": "Gaussian Markov random fields (GMRFs) are probabilistic graphical models widely used in spatial statistics and related fields to model dependencies over spatial structures. Deep Gaussian Markov Random Fields (Deep GMRF) extend traditional GMRFs by integrating deep learning techniques, enabling the model to capture more complex and non-linear relationships in the data. This hybrid approach combines the interpretability and structure of GMRFs with the flexibility and representational power of deep neural networks. For image data, there are a broad array of interpretable features such as edges, blurs, and shapes, that may be useful for monitoring. We propose a new method, called Bayesian Online Structure-aware Change Detection (BLAST), which Learns important image features via offline pre-change data via the deep GMRF, and then integrates the trained model within Bayesian change-point detection for scalable monitoring. We investigate the effectiveness of BLAST in a suite of numerical experiments.\n\n\nSimon Mak"
+  },
+  {
+    "objectID": "abstracts/xiaojunzheng.html#abstract",
+    "href": "abstracts/xiaojunzheng.html#abstract",
+    "title": "BLAST: Bayesian Online Structure-aware Change-point Detection",
+    "section": "",
+    "text": "Gaussian Markov random fields (GMRFs) are probabilistic graphical models widely used in spatial statistics and related fields to model dependencies over spatial structures. Deep Gaussian Markov Random Fields (Deep GMRF) extend traditional GMRFs by integrating deep learning techniques, enabling the model to capture more complex and non-linear relationships in the data. This hybrid approach combines the interpretability and structure of GMRFs with the flexibility and representational power of deep neural networks. For image data, there are a broad array of interpretable features such as edges, blurs, and shapes, that may be useful for monitoring. We propose a new method, called Bayesian Online Structure-aware Change Detection (BLAST), which Learns important image features via offline pre-change data via the deep GMRF, and then integrates the trained model within Bayesian change-point detection for scalable monitoring. We investigate the effectiveness of BLAST in a suite of numerical experiments.\n\n\nSimon Mak"
+  },
+  {
+    "objectID": "abstracts/binette.html",
+    "href": "abstracts/binette.html",
+    "title": "Performance Rank Reversals: An Overlooked Challenge in the Evaluation of Machine Learning Algorithms",
+    "section": "",
+    "text": "I’ll talk about research done at Los Alamos National Laboratory over the summer.\n\n\nJerry Reiter"
+  },
+  {
+    "objectID": "abstracts/binette.html#abstract",
+    "href": "abstracts/binette.html#abstract",
+    "title": "Performance Rank Reversals: An Overlooked Challenge in the Evaluation of Machine Learning Algorithms",
+    "section": "",
+    "text": "I’ll talk about research done at Los Alamos National Laboratory over the summer.\n\n\nJerry Reiter"
+  },
+  {
+    "objectID": "abstracts/edtam.html",
+    "href": "abstracts/edtam.html",
+    "title": "A Fast Spanning Tree Sampler",
+    "section": "",
+    "text": "Algorithms for sampling random spanning trees are extensively studied in probability and theoretical computer science. Existing samplers, such as the celebrated Aldous-Broder algorithm, can be drastically slowed when the underlying graph has bottlenecks. Researchers often bypass such issues by resorting to approximate samplers or extraneous regularity assumptions.\nI present a novel algorithm that improves upon existing samplers such as Aldous-Broder. This novel sampler is exact and fully general (no regularity assumptions needed). It works well even if the underlying graph has arbitrarily small bottlenecks. I provide both theory and simulations that demonstrate the efficiency of this algorithm. Since I am (nominally) a Bayesian statistician, I illustrate the use of this algorithm in statistics by proposing a Bayesian model that utilizes this sampler for posterior simulation.\n\n\nDavid Dunson. Joint work with Leo Duan at University of Florida."
+  },
+  {
+    "objectID": "abstracts/edtam.html#abstract",
+    "href": "abstracts/edtam.html#abstract",
+    "title": "A Fast Spanning Tree Sampler",
+    "section": "",
+    "text": "Algorithms for sampling random spanning trees are extensively studied in probability and theoretical computer science. Existing samplers, such as the celebrated Aldous-Broder algorithm, can be drastically slowed when the underlying graph has bottlenecks. Researchers often bypass such issues by resorting to approximate samplers or extraneous regularity assumptions.\nI present a novel algorithm that improves upon existing samplers such as Aldous-Broder. This novel sampler is exact and fully general (no regularity assumptions needed). It works well even if the underlying graph has arbitrarily small bottlenecks. I provide both theory and simulations that demonstrate the efficiency of this algorithm. Since I am (nominally) a Bayesian statistician, I illustrate the use of this algorithm in statistics by proposing a Bayesian model that utilizes this sampler for posterior simulation.\n\n\nDavid Dunson. Joint work with Leo Duan at University of Florida."
+  },
+  {
+    "objectID": "abstracts/alexdombowsky.html",
+    "href": "abstracts/alexdombowsky.html",
+    "title": "Product Centered Dirichlet Processes for Dependent Clustering",
+    "section": "",
+    "text": "While there is an immense literature on Bayesian methods for clustering, the multiview case has received little attention. This problem focuses on obtaining distinct but statistically dependent clusterings in a common set of entities for different data types. For example, clustering patients into subgroups with subgroup membership varying according to the domain of the patient variables. A challenge is how to model the across-view dependence between the partitions of patients into subgroups. The complexities of the partition space make standard methods to model dependence, such as correlation, infeasible. In this talk, we propose CLustering with Independence Centering (CLIC), a clustering prior that uses a single parameter to explicitly model dependence between clusterings across views. CLIC is induced by the product centered Dirichlet process (PCDP), a novel hierarchical prior that bridges between independent and equivalent partitions. We show appealing theoretic properties, provide a finite approximation and prove its accuracy, present a marginal Gibbs sampler for posterior computation, and derive closed form expressions for the marginal and joint partition distributions for the CLIC model. On synthetic data and in an application to pre-term birth, CLIC accurately characterizes view-specific partitions while providing inference on the dependence level.\n\n\nDavid B. Dunson"
+  },
+  {
+    "objectID": "abstracts/alexdombowsky.html#abstract",
+    "href": "abstracts/alexdombowsky.html#abstract",
+    "title": "Product Centered Dirichlet Processes for Dependent Clustering",
+    "section": "",
+    "text": "While there is an immense literature on Bayesian methods for clustering, the multiview case has received little attention. This problem focuses on obtaining distinct but statistically dependent clusterings in a common set of entities for different data types. For example, clustering patients into subgroups with subgroup membership varying according to the domain of the patient variables. A challenge is how to model the across-view dependence between the partitions of patients into subgroups. The complexities of the partition space make standard methods to model dependence, such as correlation, infeasible. In this talk, we propose CLustering with Independence Centering (CLIC), a clustering prior that uses a single parameter to explicitly model dependence between clusterings across views. CLIC is induced by the product centered Dirichlet process (PCDP), a novel hierarchical prior that bridges between independent and equivalent partitions. We show appealing theoretic properties, provide a finite approximation and prove its accuracy, present a marginal Gibbs sampler for posterior computation, and derive closed form expressions for the marginal and joint partition distributions for the CLIC model. On synthetic data and in an application to pre-term birth, CLIC accurately characterizes view-specific partitions while providing inference on the dependence level.\n\n\nDavid B. Dunson"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Graduate Student Research Seminar Series",
+    "section": "",
+    "text": "Time: Mondays 11:45 - 1:00 pm\nPlace: Reuben-Cooke Building 130\nInstructor: Merlise Clyde clyde@duke.edu"
+  },
+  {
+    "objectID": "index.html#fall-schedule-fa-calendar-days",
+    "href": "index.html#fall-schedule-fa-calendar-days",
+    "title": "Graduate Student Research Seminar Series",
+    "section": "Fall Schedule ",
+    "text": "Fall Schedule \n\n\n\n\n\n\n  \n    \n    \n    \n    \n  \n  \n    \n    \n      Date\n      Moderator\n      Speaker\n      Title\n    \n  \n  \n    28 Aug\nKat Husar\n\nCarol Wang\nTree Boosting for Conditional Density Estimation\n\n    \n\nZeki Kazan\nPrior-itizing Privacy: A Bayesian Approach to Setting the Privacy Budget in Differential Privacy\n\n    4 Sep\nLabor Day\n\n\n\n    \nNo Talks\n\n\n\n    11 Sep\nBennedetta Bruni\n\nJustin Weltz\nExperimental Designs for Heteroskedastic Variance\n\n    \n\nDevin Johnson\nComparison and Bayesian Estimation of Feature Allocations\n\n    18 Sep\nHoujie Wang\n\nIrene Ji\nBayesian Fault Localization for Software Testing\n\n    \n\nOlivier Binette\nFeedback-Driven ML: A Proposal for Harnessing Subject-Matter Expertise in the Model Development Cycle\n\n    25 Sep\nBonjung Sung\n\nBetsy Bersson\nOptimal Prediction Sets for Describing Uncertainty in Categorical Data\n\n    \n\nMichael Christensen\nAn Eclectic Overview of MCMC Tricks and Tools for Sampling from Tricky Posteriors\n\n    2 Oct\nFaculty Meeting\n\n\n\n    \nNo Talks\n\n\n\n    9 Oct\nLeah Johnson\n\nYunran Chen\nBlock Covariance Matrices Estimation\n\n    \n\nRihui Ou\nScalable Bayesian Inference for Time Series via Divide-and-Conquer\n\n    16 Oct\nFall Break\n\n\n\n    \nNo Talks\n\n\n\n    23 Oct\nAihua Li\n\nKeru Wu\nMinimax Mixing Time of the Metropolis-Adjusted Langevin Algorithm for Log-Concave Sampling\n\n    \n\nJoseph Lawson\nBayesian Ensembling for Contextual Bandit Models”\n\n    30 Oct\nSuchismita Roy\n\nXiaojun Zheng\nBLAST: Bayesian Online Structure-aware Change-point Detection\n\n    \n\nRaphaël Morsomme\nData-augmentation Markov chain Monte Carlo for fitting semi-Markov breast cancer models to individual screens\n\n    6 Nov\nFaculty Meeting\n\n\n\n    \nNo Talks\n\n\n\n    13 Nov\nCaitrin Murphy\n\nBrian Kundinger\nVariational Beta Linkage\n\n    \n\nEd Tam\nA Fast Spanning Tree Sampler\n\n    20 Nov\nLorenzo Mauri\n\nAndrea Aveni\nRankings\n\n    \n\nYoungsoo Baek\nGeneralized Bayes Approach to Inverse Problems with Model Misspecification\n\n    27 Nov\nYen-Chun Liu\n\nAlexander Dombowsky\nProduct Centered Dirichlet Processes for Dependent Clustering\n\n    \n\nRick Presman\nNA\n\n    4 Dec\nFaculty Meeting\n\n\n\n    \nNo Talks"
+  },
+  {
+    "objectID": "index.html#spring-schedule-fa-calendar-days",
+    "href": "index.html#spring-schedule-fa-calendar-days",
+    "title": "Graduate Student Research Seminar Series",
+    "section": "Spring Schedule ",
+    "text": "Spring Schedule \n\n\n\n\n\n\n  \n    \n    \n    \n    \n  \n  \n    \n    \n      Date\n      Moderator\n      Speaker\n      Title\n    \n  \n  \n    15 Jan\nMLK Holiday\n\n\n\n    \nNo Talks\n\n\n\n    22 Jan\nHold for Search\n\n\n\n    29 Jan\nHold for Search\n\n\n\n    5 Feb\nFaculty Meeting\n\n\n\n    \nNo Talks\n\n\n\n    12 Feb\nPiotr Suder\n\nJoe Mathews\n\n    \n\nEmily Tallman\n\n    19 Feb\nYueqi Guo\n\nJennifer Kampe\n\n    \n\nBo Liu\n\n    26 Feb\nLuke Vrotsos\n\nYuren Zhou\n\n    \n\nSteve Winter\n\n    4 Mar\nFaculty Meeting\n\n\n\n    \nNo Talks\n\n\n\n    11 Mar\nSpring Break\n\n\n\n    \nNo Talks\n\n\n\n    18 Mar\nShuo Wang\n\nKevin Li\n\n    \n\nChristine Shen\n\n    25 Mar\nJaehoan Kim\n\nGlenn Palmer\n\n    \n\nCathy Lee\n\n    1 Apr\nFaculty Meeting\n\n\n\n    \nNo Talks\n\n\n\n    8 Apr\nGyeonghun Kang\n\nRiccardo Rossetti\n\n    \n\nJohn Miller\n\n    15 Apr\nNeubrander, Marie\n\nNathan Varberg\n\n    \n\nSam Rosen\n\n    22 Apr\nReading Period\n\n\n\n    \nNo Talks"
+  },
+  {
     "objectID": "abstracts/kazan.html",
     "href": "abstracts/kazan.html",
     "title": "Prior-itizing Privacy: A Bayesian Approach to Setting the Privacy Budget in Differential Privacy",
@@ -75,6 +194,34 @@
     "title": "Prior-itizing Privacy: A Bayesian Approach to Setting the Privacy Budget in Differential Privacy",
     "section": "",
     "text": "When releasing outputs from confidential data, agencies need to balance the analytical usefulness of the released data with the obligation to protect data subjects’ confidentiality. For releases satisfying differential privacy, this balance is reflected by the parameter \\(\\varepsilon\\), known as the privacy budget. In practice, it can be difficult for agencies to select and interpret \\(\\varepsilon\\). We use Bayesian posterior probabilities of disclosure to provide a framework for setting \\(\\varepsilon\\). The agency decides how much posterior risk it is willing to accept in a data release at various levels of prior risk. Using a mathematical relationship among these probabilities and \\(\\varepsilon\\), the agency selects the maximum \\(\\varepsilon\\) that ensures the posterior-to-prior ratios are acceptable for all values of prior disclosure risk. The framework applies to any differentially private mechanism.\n\n\nJerry Reiter"
+  },
+  {
+    "objectID": "abstracts/youngsoobaek.html",
+    "href": "abstracts/youngsoobaek.html",
+    "title": "Generalized Bayes Approach to Inverse Problems with Model Misspecification",
+    "section": "",
+    "text": "I discuss a general framework for obtaining probabilistic solutions to PDE-based inverse problems when potentially the PDE is inaccurate or the noise-generating mechanism is unknown. In a generalized Bayesian formulation, the Bayesian update problem is reformulated and generalized into a regularized variational problem on the space of probability distributions of the parameter. A novel generalization of a Bayesian model comparison procedure is given for evaluating the optimality of a given loss based on its “predictive performance.” A tailored sequential Monte Carlo-based approach is used to simultaneously calibrate the regularization parameter and obtain samples from the underlying posterior. Some theoretical properties of Gibbs posteriors are also presented.\n\n\nSayan Mukherjee"
+  },
+  {
+    "objectID": "abstracts/youngsoobaek.html#abstract",
+    "href": "abstracts/youngsoobaek.html#abstract",
+    "title": "Generalized Bayes Approach to Inverse Problems with Model Misspecification",
+    "section": "",
+    "text": "I discuss a general framework for obtaining probabilistic solutions to PDE-based inverse problems when potentially the PDE is inaccurate or the noise-generating mechanism is unknown. In a generalized Bayesian formulation, the Bayesian update problem is reformulated and generalized into a regularized variational problem on the space of probability distributions of the parameter. A novel generalization of a Bayesian model comparison procedure is given for evaluating the optimality of a given loss based on its “predictive performance.” A tailored sequential Monte Carlo-based approach is used to simultaneously calibrate the regularization parameter and obtain samples from the underlying posterior. Some theoretical properties of Gibbs posteriors are also presented.\n\n\nSayan Mukherjee"
+  },
+  {
+    "objectID": "abstracts/justinweltz.html",
+    "href": "abstracts/justinweltz.html",
+    "title": "Experimental Designs for Heteroskedastic Variance",
+    "section": "",
+    "text": "Most linear experimental design problems assume homogeneous variance although heteroskedastic noise is present in many realistic settings. Let a learner have access to a finite set of measurement vectors \\(\\mathcal{X}\\subset \\mathbb{R}^d\\) that can be probed to receive noisy linear responses of the form \\(y=x^{\\top}\\theta^{\\ast}+\\eta\\). Here \\(\\theta^{\\ast}\\in \\mathbb{R}^d\\) is an unknown parameter vector, and \\(\\eta\\) is independent mean-zero \\(\\sigma_x^2\\)-sub-Gaussian noise defined by a flexible heteroskedastic variance model, \\(\\sigma_x^2 = x^{\\top}\\Sigma^{\\ast}x\\). Assuming that \\(\\Sigma^{\\ast}\\in \\mathbb{R}^{d\\times d}\\) is an unknown matrix, we propose, analyze and empirically evaluate a novel design for uniformly bounding estimation error of the variance parameters, \\(\\sigma_x^2\\). We demonstrate the benefits of this method with two adaptive experimental design problems under heteroskedastic noise, fixed confidence transductive best-arm identification and level-set identification and prove the first instance-dependent lower bounds in these settings. Lastly, we construct near-optimal algorithms and demonstrate the large improvements in sample complexity gained from accounting for heteroskedastic variance in these designs empirically.\n\n\nAlexander Volfovsky and Eric Laber"
+  },
+  {
+    "objectID": "abstracts/justinweltz.html#abstract",
+    "href": "abstracts/justinweltz.html#abstract",
+    "title": "Experimental Designs for Heteroskedastic Variance",
+    "section": "",
+    "text": "Most linear experimental design problems assume homogeneous variance although heteroskedastic noise is present in many realistic settings. Let a learner have access to a finite set of measurement vectors \\(\\mathcal{X}\\subset \\mathbb{R}^d\\) that can be probed to receive noisy linear responses of the form \\(y=x^{\\top}\\theta^{\\ast}+\\eta\\). Here \\(\\theta^{\\ast}\\in \\mathbb{R}^d\\) is an unknown parameter vector, and \\(\\eta\\) is independent mean-zero \\(\\sigma_x^2\\)-sub-Gaussian noise defined by a flexible heteroskedastic variance model, \\(\\sigma_x^2 = x^{\\top}\\Sigma^{\\ast}x\\). Assuming that \\(\\Sigma^{\\ast}\\in \\mathbb{R}^{d\\times d}\\) is an unknown matrix, we propose, analyze and empirically evaluate a novel design for uniformly bounding estimation error of the variance parameters, \\(\\sigma_x^2\\). We demonstrate the benefits of this method with two adaptive experimental design problems under heteroskedastic noise, fixed confidence transductive best-arm identification and level-set identification and prove the first instance-dependent lower bounds in these settings. Lastly, we construct near-optimal algorithms and demonstrate the large improvements in sample complexity gained from accounting for heteroskedastic variance in these designs empirically.\n\n\nAlexander Volfovsky and Eric Laber"
   },
   {
     "objectID": "abstracts/josephlawson.html",
@@ -91,18 +238,46 @@
     "text": "Contextual bandit models are a primary tool for sequential decision making with applications ranging from clinical trials to e-commerce. While there are numerous bandit algorithms which achieve optimal regret bounds and show strong performance on benchmark problems, algorithm selection and tuning in any given application remains a major open problem. We propose the Bayesian Basket of Bandits (B3), a meta-learning algorithm which automatically ensembles a set (basket) of candidate algorithms to produce an algorithm which dominates all those in the basket. The method works by treating the evolution of a bandit algorithm as a Markov decision process in which the states are posterior distributions over model parameters and subsequently applying approximate Bayesian dynamic programming to learn an optimal ensemble. We derive both Bayesian and frequentist convergence results for the cumulative discounted utility. In simulation experiments, the proposed method provides lower regret than state-of-the-art algorithms including Thompson Sampling, upper confidence bound methods, and Information-Directed sampling.\n\n\nEric Laber"
   },
   {
-    "objectID": "abstracts/justinweltz.html",
-    "href": "abstracts/justinweltz.html",
-    "title": "Experimental Designs for Heteroskedastic Variance",
+    "objectID": "abstracts/keruwu.html",
+    "href": "abstracts/keruwu.html",
+    "title": "Minimax Mixing Time of the Metropolis-Adjusted Langevin Algorithm for Log-Concave Sampling",
     "section": "",
-    "text": "Most linear experimental design problems assume homogeneous variance although heteroskedastic noise is present in many realistic settings. Let a learner have access to a finite set of measurement vectors \\(\\mathcal{X}\\subset \\mathbb{R}^d\\) that can be probed to receive noisy linear responses of the form \\(y=x^{\\top}\\theta^{\\ast}+\\eta\\). Here \\(\\theta^{\\ast}\\in \\mathbb{R}^d\\) is an unknown parameter vector, and \\(\\eta\\) is independent mean-zero \\(\\sigma_x^2\\)-sub-Gaussian noise defined by a flexible heteroskedastic variance model, \\(\\sigma_x^2 = x^{\\top}\\Sigma^{\\ast}x\\). Assuming that \\(\\Sigma^{\\ast}\\in \\mathbb{R}^{d\\times d}\\) is an unknown matrix, we propose, analyze and empirically evaluate a novel design for uniformly bounding estimation error of the variance parameters, \\(\\sigma_x^2\\). We demonstrate the benefits of this method with two adaptive experimental design problems under heteroskedastic noise, fixed confidence transductive best-arm identification and level-set identification and prove the first instance-dependent lower bounds in these settings. Lastly, we construct near-optimal algorithms and demonstrate the large improvements in sample complexity gained from accounting for heteroskedastic variance in these designs empirically.\n\n\nAlexander Volfovsky and Eric Laber"
+    "text": "We study the mixing time of the Metropolis-adjusted Langevin algorithm (MALA) for sampling from a log-smooth and strongly log-concave distribution. We establish its optimal minimax mixing time under a warm start. Our main contribution is two-fold. First, for a d-dimensional log-concave density with condition number kappa, we show that MALA with a warm start mixes in kappa times sqrt(d) iterations up to logarithmic factors. This improves upon the previous work on the dependency of either the condition number kappa or the dimension d. Our proof relies on comparing the leapfrog integrator with the continuous Hamiltonian dynamics, where we establish a new concentration bound for the acceptance rate. Second, we prove a spectral gap based mixing time lower bound for reversible MCMC algorithms on general state spaces. We apply this lower bound result to construct a hard distribution for which MALA requires at least kappa times sqrt(d) steps to mix. The lower bound for MALA matches our upper bound in terms of condition number and dimension. Finally, numerical experiments are included to validate our theoretical results.\n\n\nYuansi Chen"
   },
   {
-    "objectID": "abstracts/justinweltz.html#abstract",
-    "href": "abstracts/justinweltz.html#abstract",
-    "title": "Experimental Designs for Heteroskedastic Variance",
+    "objectID": "abstracts/keruwu.html#abstract",
+    "href": "abstracts/keruwu.html#abstract",
+    "title": "Minimax Mixing Time of the Metropolis-Adjusted Langevin Algorithm for Log-Concave Sampling",
     "section": "",
-    "text": "Most linear experimental design problems assume homogeneous variance although heteroskedastic noise is present in many realistic settings. Let a learner have access to a finite set of measurement vectors \\(\\mathcal{X}\\subset \\mathbb{R}^d\\) that can be probed to receive noisy linear responses of the form \\(y=x^{\\top}\\theta^{\\ast}+\\eta\\). Here \\(\\theta^{\\ast}\\in \\mathbb{R}^d\\) is an unknown parameter vector, and \\(\\eta\\) is independent mean-zero \\(\\sigma_x^2\\)-sub-Gaussian noise defined by a flexible heteroskedastic variance model, \\(\\sigma_x^2 = x^{\\top}\\Sigma^{\\ast}x\\). Assuming that \\(\\Sigma^{\\ast}\\in \\mathbb{R}^{d\\times d}\\) is an unknown matrix, we propose, analyze and empirically evaluate a novel design for uniformly bounding estimation error of the variance parameters, \\(\\sigma_x^2\\). We demonstrate the benefits of this method with two adaptive experimental design problems under heteroskedastic noise, fixed confidence transductive best-arm identification and level-set identification and prove the first instance-dependent lower bounds in these settings. Lastly, we construct near-optimal algorithms and demonstrate the large improvements in sample complexity gained from accounting for heteroskedastic variance in these designs empirically.\n\n\nAlexander Volfovsky and Eric Laber"
+    "text": "We study the mixing time of the Metropolis-adjusted Langevin algorithm (MALA) for sampling from a log-smooth and strongly log-concave distribution. We establish its optimal minimax mixing time under a warm start. Our main contribution is two-fold. First, for a d-dimensional log-concave density with condition number kappa, we show that MALA with a warm start mixes in kappa times sqrt(d) iterations up to logarithmic factors. This improves upon the previous work on the dependency of either the condition number kappa or the dimension d. Our proof relies on comparing the leapfrog integrator with the continuous Hamiltonian dynamics, where we establish a new concentration bound for the acceptance rate. Second, we prove a spectral gap based mixing time lower bound for reversible MCMC algorithms on general state spaces. We apply this lower bound result to construct a hard distribution for which MALA requires at least kappa times sqrt(d) steps to mix. The lower bound for MALA matches our upper bound in terms of condition number and dimension. Finally, numerical experiments are included to validate our theoretical results.\n\n\nYuansi Chen"
+  },
+  {
+    "objectID": "abstracts/rihuiou.html",
+    "href": "abstracts/rihuiou.html",
+    "title": "Scalable Bayesian Inference for Time Series via Divide-and-Conquer",
+    "section": "",
+    "text": "Bayesian computational algorithms tend to scale poorly as data size increases. This had led to the de- velopment of divide-and-conquer-based approaches for scalable inference. These divide the data into subsets, perform inference for each subset in parallel, and then combine these inferences. While appeal- ing theoretical properties and practical performance have been demonstrated for independent observa- tions, scalable inference for dependent data remains challenging. In this work, we study the problem of Bayesian inference from very long time series. The literature in this area focuses mainly on approximate approaches that lack any rigorous theoretical guarantees and may provide arbitrarily poor accuracy in practice. We propose a simple and scalable divide-and-conquer method, and provide accuracy guaran- tees. Numerical simulations and real data applications demonstrate the effectiveness of our approach\n\n\nDavid DUnson"
+  },
+  {
+    "objectID": "abstracts/rihuiou.html#abstract",
+    "href": "abstracts/rihuiou.html#abstract",
+    "title": "Scalable Bayesian Inference for Time Series via Divide-and-Conquer",
+    "section": "",
+    "text": "Bayesian computational algorithms tend to scale poorly as data size increases. This had led to the de- velopment of divide-and-conquer-based approaches for scalable inference. These divide the data into subsets, perform inference for each subset in parallel, and then combine these inferences. While appeal- ing theoretical properties and practical performance have been demonstrated for independent observa- tions, scalable inference for dependent data remains challenging. In this work, we study the problem of Bayesian inference from very long time series. The literature in this area focuses mainly on approximate approaches that lack any rigorous theoretical guarantees and may provide arbitrarily poor accuracy in practice. We propose a simple and scalable divide-and-conquer method, and provide accuracy guaran- tees. Numerical simulations and real data applications demonstrate the effectiveness of our approach\n\n\nDavid DUnson"
+  },
+  {
+    "objectID": "abstracts/raphaelmorsomme.html",
+    "href": "abstracts/raphaelmorsomme.html",
+    "title": "Data-augmentation Markov chain Monte Carlo for fitting semi-Markov breast cancer models to individual screens",
+    "section": "",
+    "text": "Compartmental models offer a mechanistic representation of the evolution of breast cancer over time. These models are often assumed to possess the Markovian property for mathematical convenience. In this paper, we introduce a semi-Markov model that allows for indolent pre-clinical cancer and design a novel data-augmentation Markov chain Monte Carlo sampling algorithm for fitting this model to individual screening and diagnosis histories. Our fully Bayesian approach properly accounts for the uncertainty in the exact onset time of pre-clinical cancers by treating these as latent variables. We show that the sampling algorithm swiftly explores the joint posterior distribution of the model parameters and the latent variables and that the Markov chain underlying the algorithm is uniformly ergodic. We illustrate the usefulness of our semi-Markov model by analyzing a data set of 80,000 women from the Breast Cancer Surveillance Consortium and discuss its applicability to other processes which are partially observed such as ovarian cancer.\n\n\nProf. Jason Xu"
+  },
+  {
+    "objectID": "abstracts/raphaelmorsomme.html#abstract",
+    "href": "abstracts/raphaelmorsomme.html#abstract",
+    "title": "Data-augmentation Markov chain Monte Carlo for fitting semi-Markov breast cancer models to individual screens",
+    "section": "",
+    "text": "Compartmental models offer a mechanistic representation of the evolution of breast cancer over time. These models are often assumed to possess the Markovian property for mathematical convenience. In this paper, we introduce a semi-Markov model that allows for indolent pre-clinical cancer and design a novel data-augmentation Markov chain Monte Carlo sampling algorithm for fitting this model to individual screening and diagnosis histories. Our fully Bayesian approach properly accounts for the uncertainty in the exact onset time of pre-clinical cancers by treating these as latent variables. We show that the sampling algorithm swiftly explores the joint posterior distribution of the model parameters and the latent variables and that the Markov chain underlying the algorithm is uniformly ergodic. We illustrate the usefulness of our semi-Markov model by analyzing a data set of 80,000 women from the Breast Cancer Surveillance Consortium and discuss its applicability to other processes which are partially observed such as ovarian cancer.\n\n\nProf. Jason Xu"
   },
   {
     "objectID": "abstracts/devinjohnson.html",
@@ -133,55 +308,6 @@
     "text": "Summarizing categorical data through valid and efficient prediction sets provides unambiguous statistical inference along with an accessible interpretation. To this end, we present a nonparametric framework for obtaining valid prediction sets based on a multinomial random sample which are constructed based solely on the sample and an ordering of event probabilities. We prove an ordering obtained based on accurate indirect information results in the prediction set with the smallest expected cardinality among a reduced class of all prediction sets, and the prediction set retains validity regardless of the accuracy of the indirect information. We detail a simple algorithm to obtain the optimal prediction set where the computation time does not depend on the sample size and scales nicely with the number of species considered. Our proposed method naturally extends to a small area regime whereby information may be shared across areas such as geographic regions. We demonstrate the usefulness of our method in summarizing checklists of bird sightings across North Carolina from the widely-used eBird database\n\n\nPeter D. Hoff"
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "This course provides graduate students with the opportunity to share their research with other students and faculty, as well as practice giving good research presentations. Each session will consist of either two short presentations or one long presentation. Presenters will receive constructive feedback from both myself and the audience, on both the presentation and research content. Students are encouraged (and expected) to contribute to discussions - this helps both the presenter and your own research!"
-  },
-  {
-    "objectID": "about.html#description",
-    "href": "about.html#description",
-    "title": "About",
-    "section": "",
-    "text": "This course provides graduate students with the opportunity to share their research with other students and faculty, as well as practice giving good research presentations. Each session will consist of either two short presentations or one long presentation. Presenters will receive constructive feedback from both myself and the audience, on both the presentation and research content. Students are encouraged (and expected) to contribute to discussions - this helps both the presenter and your own research!"
-  },
-  {
-    "objectID": "about.html#logistics",
-    "href": "about.html#logistics",
-    "title": "About",
-    "section": "Logistics",
-    "text": "Logistics\n\nSpeakers are expected to present in-person. A Zoom link will be available only for students who cannot physically attend or external audience members.\nStudents presenting will invite their PhD advisors and committee members to attend.\nAll PhD students in Statistical Science are recommended to register for STA 701S each semester, and all PhD students in Statistical Science in Years 3+ of studies will be required to register and present in STA 701S each year.\nThere will be two talks scheduled in each class. Each talk should be no longer than 25 minutes, which leaves ample time for questions & suggestions from the audience.\nFirst and second year PhD students will serve as Moderators, who will introduce the speakers and facilitate Q&A.\nAny students who will need to change the date of the presentation should submit a request in Github.1 Please provide the alternate date(s) and confirmation that the other individual is willing to switch.\nPlease submit titles and abstracts at least one week in advance."
-  },
-  {
-    "objectID": "about.html#footnotes",
-    "href": "about.html#footnotes",
-    "title": "About",
-    "section": "Footnotes",
-    "text": "Footnotes\n\n\nYou must be logged in to GitHub to submit a request.↩︎"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Graduate Student Research Seminar Series",
-    "section": "",
-    "text": "Time: Mondays 11:45 - 1:00 pm\nPlace: Reuben-Cooke Building 130\nInstructor: Merlise Clyde clyde@duke.edu"
-  },
-  {
-    "objectID": "index.html#fall-schedule-fa-calendar-days",
-    "href": "index.html#fall-schedule-fa-calendar-days",
-    "title": "Graduate Student Research Seminar Series",
-    "section": "Fall Schedule ",
-    "text": "Fall Schedule \n\n\n\n\n\n\n  \n    \n    \n    \n    \n  \n  \n    \n    \n      Date\n      Moderator\n      Speaker\n      Title\n    \n  \n  \n    28 Aug\nKat Husar\n\nCarol Wang\nTree Boosting for Conditional Density Estimation\n\n    \n\nZeki Kazan\nPrior-itizing Privacy: A Bayesian Approach to Setting the Privacy Budget in Differential Privacy\n\n    4 Sep\nLabor Day\n\n\n\n    \nNo Talks\n\n\n\n    11 Sep\nBennedetta Bruni\n\nJustin Weltz\nExperimental Designs for Heteroskedastic Variance\n\n    \n\nDevin Johnson\nComparison and Bayesian Estimation of Feature Allocations\n\n    18 Sep\nHoujie Wang\n\nIrene Ji\nBayesian Fault Localization for Software Testing\n\n    \n\nOlivier Binette\nFeedback-Driven ML: A Proposal for Harnessing Subject-Matter Expertise in the Model Development Cycle\n\n    25 Sep\nBonjung Sung\n\nBetsy Bersson\nOptimal Prediction Sets for Describing Uncertainty in Categorical Data\n\n    \n\nMichael Christensen\nAn Eclectic Overview of MCMC Tricks and Tools for Sampling from Tricky Posteriors\n\n    2 Oct\nFaculty Meeting\n\n\n\n    \nNo Talks\n\n\n\n    9 Oct\nLeah Johnson\n\nYunran Chen\nBlock Covariance Matrices Estimation\n\n    \n\nRihui Ou\nScalable Bayesian Inference for Time Series via Divide-and-Conquer\n\n    16 Oct\nFall Break\n\n\n\n    \nNo Talks\n\n\n\n    23 Oct\nAihua Li\n\nKeru Wu\nMinimax Mixing Time of the Metropolis-Adjusted Langevin Algorithm for Log-Concave Sampling\n\n    \n\nJoseph Lawson\nBayesian Ensembling for Contextual Bandit Models”\n\n    30 Oct\nSuchismita Roy\n\nXiaojun Zheng\nBLAST: Bayesian Online Structure-aware Change-point Detection\n\n    \n\nRaphaël Morsomme\nData-augmentation Markov chain Monte Carlo for fitting semi-Markov breast cancer models to individual screens\n\n    6 Nov\nFaculty Meeting\n\n\n\n    \nNo Talks\n\n\n\n    13 Nov\nCaitrin Murphy\n\nBrian Kundinger\nVariational Beta Linkage\n\n    \n\nEd Tam\nA Fast Spanning Tree Sampler\n\n    20 Nov\nLorenzo Mauri\n\nAndrea Aveni\nRankings\n\n    \n\nYoungsoo Baek\nGeneralized Bayes Approach to Inverse Problems with Model Misspecification\n\n    27 Nov\nYen-Chun Liu\n\nAlexander Dombowsky\nNA\n\n    \n\nRick Presman\nNA\n\n    4 Dec\nFaculty Meeting\n\n\n\n    \nNo Talks"
-  },
-  {
-    "objectID": "index.html#spring-schedule-fa-calendar-days",
-    "href": "index.html#spring-schedule-fa-calendar-days",
-    "title": "Graduate Student Research Seminar Series",
-    "section": "Spring Schedule ",
-    "text": "Spring Schedule \n\n\n\n\n\n\n  \n    \n    \n    \n    \n  \n  \n    \n    \n      Date\n      Moderator\n      Speaker\n      Title\n    \n  \n  \n    15 Jan\nMLK Holiday\n\n\n\n    \nNo Talks\n\n\n\n    22 Jan\nHold for Search\n\n\n\n    29 Jan\nHold for Search\n\n\n\n    5 Feb\nFaculty Meeting\n\n\n\n    \nNo Talks\n\n\n\n    12 Feb\nPiotr Suder\n\nJoe Mathews\n\n    \n\nEmily Tallman\n\n    19 Feb\nYueqi Guo\n\nJennifer Kampe\n\n    \n\nBo Liu\n\n    26 Feb\nLuke Vrotsos\n\nYuren Zhou\n\n    \n\nSteve Winter\n\n    4 Mar\nFaculty Meeting\n\n\n\n    \nNo Talks\n\n\n\n    11 Mar\nSpring Break\n\n\n\n    \nNo Talks\n\n\n\n    18 Mar\nShuo Wang\n\nKevin Li\n\n    \n\nChristine Shen\n\n    25 Mar\nJaehoan Kim\n\nGlenn Palmer\n\n    \n\nCathy Lee\n\n    1 Apr\nFaculty Meeting\n\n\n\n    \nNo Talks\n\n\n\n    8 Apr\nGyeonghun Kang\n\nRiccardo Rossetti\n\n    \n\nJohn Miller\n\n    15 Apr\nNeubrander, Marie\n\nNathan Varberg\n\n    \n\nSam Rosen\n\n    22 Apr\nReading Period\n\n\n\n    \nNo Talks"
-  },
-  {
     "objectID": "abstracts/yunranchen.html",
     "href": "abstracts/yunranchen.html",
     "title": "Block Covariance Matrices Estimation",
@@ -194,117 +320,5 @@
     "title": "Block Covariance Matrices Estimation",
     "section": "",
     "text": "Covariance matrix estimation is challenging. An unstructured covariance matrix is unestimable if p&gt;n. Motivated by a neuroscience study, we consider a block structure on a covariance matrix which enjoys both interpretability and statistical efficiency. Here we focus on a block covariance estimation, which holds the same block structure on its corresponding correlation matrix. We propose a novel model based on the canonical representation (Archakov and Hansen, 2020) in a Bayesian framework and allow for estimating unknown block structure by incorporating a mixture of finite mixtures (MFM) model (Miller and Harrison, 2018). We applied sequentially allocated merge-split sampler (Dahl and Newcomb, 2022) to estimate a block covariance matrix with unknown number of blocks and block allocation. Numerical studies suggest that our estimator outperforms all the alternatives in terms of accuracy and block assignment when correctly specified, and achieves comparable accuracy even when misspecified. More important, compared to the alternatives, our estimator is able to recover the underlying block structure for noisy data. We demonstrate the usefulness and flexibility of this model on neuroscience application.\n\n\nDr. Surya Tokdar"
-  },
-  {
-    "objectID": "abstracts/carolwang.html",
-    "href": "abstracts/carolwang.html",
-    "title": "Tree boosting for conditional density estimation",
-    "section": "",
-    "text": "In many real-world situations, modeling complex conditional distributions is crucial. We developed a tree boosting algorithm for learning conditional densities by forward stagewise fitting of an additive tree ensemble. The core idea of our algorithm is to use covariate-dependent probability measures defined by partition trees and sequentially “subtract” these probability measures from observations to remove the distributional structure from the underlying sampling distribution. Our algorithm offers the flexibility of employing any binary classifier trained under log loss to estimate branching probabilities within partition trees. The performance is further improved with scale-specific shrinkage. Notably, our algorithm not only allows evaluating the fitted density analytically but also provides a generative model that can be easily sampled from. We tested the algorithm on both simulated examples and a benchmark regression dataset.\n\n\nLi Ma"
-  },
-  {
-    "objectID": "abstracts/carolwang.html#abstract",
-    "href": "abstracts/carolwang.html#abstract",
-    "title": "Tree boosting for conditional density estimation",
-    "section": "",
-    "text": "In many real-world situations, modeling complex conditional distributions is crucial. We developed a tree boosting algorithm for learning conditional densities by forward stagewise fitting of an additive tree ensemble. The core idea of our algorithm is to use covariate-dependent probability measures defined by partition trees and sequentially “subtract” these probability measures from observations to remove the distributional structure from the underlying sampling distribution. Our algorithm offers the flexibility of employing any binary classifier trained under log loss to estimate branching probabilities within partition trees. The performance is further improved with scale-specific shrinkage. Notably, our algorithm not only allows evaluating the fitted density analytically but also provides a generative model that can be easily sampled from. We tested the algorithm on both simulated examples and a benchmark regression dataset.\n\n\nLi Ma"
-  },
-  {
-    "objectID": "abstracts/binette.html",
-    "href": "abstracts/binette.html",
-    "title": "Performance Rank Reversals: An Overlooked Challenge in the Evaluation of Machine Learning Algorithms",
-    "section": "",
-    "text": "I’ll talk about research done at Los Alamos National Laboratory over the summer.\n\n\nJerry Reiter"
-  },
-  {
-    "objectID": "abstracts/binette.html#abstract",
-    "href": "abstracts/binette.html#abstract",
-    "title": "Performance Rank Reversals: An Overlooked Challenge in the Evaluation of Machine Learning Algorithms",
-    "section": "",
-    "text": "I’ll talk about research done at Los Alamos National Laboratory over the summer.\n\n\nJerry Reiter"
-  },
-  {
-    "objectID": "abstracts/keruwu.html",
-    "href": "abstracts/keruwu.html",
-    "title": "Minimax Mixing Time of the Metropolis-Adjusted Langevin Algorithm for Log-Concave Sampling",
-    "section": "",
-    "text": "We study the mixing time of the Metropolis-adjusted Langevin algorithm (MALA) for sampling from a log-smooth and strongly log-concave distribution. We establish its optimal minimax mixing time under a warm start. Our main contribution is two-fold. First, for a d-dimensional log-concave density with condition number kappa, we show that MALA with a warm start mixes in kappa times sqrt(d) iterations up to logarithmic factors. This improves upon the previous work on the dependency of either the condition number kappa or the dimension d. Our proof relies on comparing the leapfrog integrator with the continuous Hamiltonian dynamics, where we establish a new concentration bound for the acceptance rate. Second, we prove a spectral gap based mixing time lower bound for reversible MCMC algorithms on general state spaces. We apply this lower bound result to construct a hard distribution for which MALA requires at least kappa times sqrt(d) steps to mix. The lower bound for MALA matches our upper bound in terms of condition number and dimension. Finally, numerical experiments are included to validate our theoretical results.\n\n\nYuansi Chen"
-  },
-  {
-    "objectID": "abstracts/keruwu.html#abstract",
-    "href": "abstracts/keruwu.html#abstract",
-    "title": "Minimax Mixing Time of the Metropolis-Adjusted Langevin Algorithm for Log-Concave Sampling",
-    "section": "",
-    "text": "We study the mixing time of the Metropolis-adjusted Langevin algorithm (MALA) for sampling from a log-smooth and strongly log-concave distribution. We establish its optimal minimax mixing time under a warm start. Our main contribution is two-fold. First, for a d-dimensional log-concave density with condition number kappa, we show that MALA with a warm start mixes in kappa times sqrt(d) iterations up to logarithmic factors. This improves upon the previous work on the dependency of either the condition number kappa or the dimension d. Our proof relies on comparing the leapfrog integrator with the continuous Hamiltonian dynamics, where we establish a new concentration bound for the acceptance rate. Second, we prove a spectral gap based mixing time lower bound for reversible MCMC algorithms on general state spaces. We apply this lower bound result to construct a hard distribution for which MALA requires at least kappa times sqrt(d) steps to mix. The lower bound for MALA matches our upper bound in terms of condition number and dimension. Finally, numerical experiments are included to validate our theoretical results.\n\n\nYuansi Chen"
-  },
-  {
-    "objectID": "abstracts/raphaelmorsomme.html",
-    "href": "abstracts/raphaelmorsomme.html",
-    "title": "Data-augmentation Markov chain Monte Carlo for fitting semi-Markov breast cancer models to individual screens",
-    "section": "",
-    "text": "Compartmental models offer a mechanistic representation of the evolution of breast cancer over time. These models are often assumed to possess the Markovian property for mathematical convenience. In this paper, we introduce a semi-Markov model that allows for indolent pre-clinical cancer and design a novel data-augmentation Markov chain Monte Carlo sampling algorithm for fitting this model to individual screening and diagnosis histories. Our fully Bayesian approach properly accounts for the uncertainty in the exact onset time of pre-clinical cancers by treating these as latent variables. We show that the sampling algorithm swiftly explores the joint posterior distribution of the model parameters and the latent variables and that the Markov chain underlying the algorithm is uniformly ergodic. We illustrate the usefulness of our semi-Markov model by analyzing a data set of 80,000 women from the Breast Cancer Surveillance Consortium and discuss its applicability to other processes which are partially observed such as ovarian cancer.\n\n\nProf. Jason Xu"
-  },
-  {
-    "objectID": "abstracts/raphaelmorsomme.html#abstract",
-    "href": "abstracts/raphaelmorsomme.html#abstract",
-    "title": "Data-augmentation Markov chain Monte Carlo for fitting semi-Markov breast cancer models to individual screens",
-    "section": "",
-    "text": "Compartmental models offer a mechanistic representation of the evolution of breast cancer over time. These models are often assumed to possess the Markovian property for mathematical convenience. In this paper, we introduce a semi-Markov model that allows for indolent pre-clinical cancer and design a novel data-augmentation Markov chain Monte Carlo sampling algorithm for fitting this model to individual screening and diagnosis histories. Our fully Bayesian approach properly accounts for the uncertainty in the exact onset time of pre-clinical cancers by treating these as latent variables. We show that the sampling algorithm swiftly explores the joint posterior distribution of the model parameters and the latent variables and that the Markov chain underlying the algorithm is uniformly ergodic. We illustrate the usefulness of our semi-Markov model by analyzing a data set of 80,000 women from the Breast Cancer Surveillance Consortium and discuss its applicability to other processes which are partially observed such as ovarian cancer.\n\n\nProf. Jason Xu"
-  },
-  {
-    "objectID": "abstracts/christensen.html",
-    "href": "abstracts/christensen.html",
-    "title": "An Eclectic Overview of MCMC Tricks and Tools for Sampling from Tricky Posteriors",
-    "section": "",
-    "text": "Bayesian model fitting is often reliant on Markov Chain Monte Carlo (MCMC) based methods for sampling from a target distribution. While most commonly used MCMC algorithms have theoretical guarantees of eventual convergence to the correct stationary distribution, in practice limited computational resources and poor tuning can result in failure to produce useable results. Additional obstacles to this goal may arise when dealing with a multimodal posterior distribution, when the posterior is concentrated near a submanifold with high curvature, in settings where the gradient and Hessian of the log posterior are unavailable, or due to me being bad at coding. In this talk I present an overview of a few MCMC tools and algorithms that may be used in isolation or conjunction with one another to improve MCMC performance, along with example problems that result in the failure of commonly used MCMC tools such as STAN or JAGS. Much of this work was done in conjunction with Devin Francom and Abby Nachtsheim of Los Alamos National Laboratory.\n\n\nPeter Hoff"
-  },
-  {
-    "objectID": "abstracts/christensen.html#abstract",
-    "href": "abstracts/christensen.html#abstract",
-    "title": "An Eclectic Overview of MCMC Tricks and Tools for Sampling from Tricky Posteriors",
-    "section": "",
-    "text": "Bayesian model fitting is often reliant on Markov Chain Monte Carlo (MCMC) based methods for sampling from a target distribution. While most commonly used MCMC algorithms have theoretical guarantees of eventual convergence to the correct stationary distribution, in practice limited computational resources and poor tuning can result in failure to produce useable results. Additional obstacles to this goal may arise when dealing with a multimodal posterior distribution, when the posterior is concentrated near a submanifold with high curvature, in settings where the gradient and Hessian of the log posterior are unavailable, or due to me being bad at coding. In this talk I present an overview of a few MCMC tools and algorithms that may be used in isolation or conjunction with one another to improve MCMC performance, along with example problems that result in the failure of commonly used MCMC tools such as STAN or JAGS. Much of this work was done in conjunction with Devin Francom and Abby Nachtsheim of Los Alamos National Laboratory.\n\n\nPeter Hoff"
-  },
-  {
-    "objectID": "abstracts/youngsoobaek.html",
-    "href": "abstracts/youngsoobaek.html",
-    "title": "Generalized Bayes Approach to Inverse Problems with Model Misspecification",
-    "section": "",
-    "text": "I discuss a general framework for obtaining probabilistic solutions to PDE-based inverse problems when potentially the PDE is inaccurate or the noise-generating mechanism is unknown. In a generalized Bayesian formulation, the Bayesian update problem is reformulated and generalized into a regularized variational problem on the space of probability distributions of the parameter. A novel generalization of a Bayesian model comparison procedure is given for evaluating the optimality of a given loss based on its “predictive performance.” A tailored sequential Monte Carlo-based approach is used to simultaneously calibrate the regularization parameter and obtain samples from the underlying posterior. Some theoretical properties of Gibbs posteriors are also presented.\n\n\nSayan Mukherjee"
-  },
-  {
-    "objectID": "abstracts/youngsoobaek.html#abstract",
-    "href": "abstracts/youngsoobaek.html#abstract",
-    "title": "Generalized Bayes Approach to Inverse Problems with Model Misspecification",
-    "section": "",
-    "text": "I discuss a general framework for obtaining probabilistic solutions to PDE-based inverse problems when potentially the PDE is inaccurate or the noise-generating mechanism is unknown. In a generalized Bayesian formulation, the Bayesian update problem is reformulated and generalized into a regularized variational problem on the space of probability distributions of the parameter. A novel generalization of a Bayesian model comparison procedure is given for evaluating the optimality of a given loss based on its “predictive performance.” A tailored sequential Monte Carlo-based approach is used to simultaneously calibrate the regularization parameter and obtain samples from the underlying posterior. Some theoretical properties of Gibbs posteriors are also presented.\n\n\nSayan Mukherjee"
-  },
-  {
-    "objectID": "abstracts/edtam.html",
-    "href": "abstracts/edtam.html",
-    "title": "A Fast Spanning Tree Sampler",
-    "section": "",
-    "text": "Algorithms for sampling random spanning trees are extensively studied in probability and theoretical computer science. Existing samplers, such as the celebrated Aldous-Broder algorithm, can be drastically slowed when the underlying graph has bottlenecks. Researchers often bypass such issues by resorting to approximate samplers or extraneous regularity assumptions.\nI present a novel algorithm that improves upon existing samplers such as Aldous-Broder. This novel sampler is exact and fully general (no regularity assumptions needed). It works well even if the underlying graph has arbitrarily small bottlenecks. I provide both theory and simulations that demonstrate the efficiency of this algorithm. Since I am (nominally) a Bayesian statistician, I illustrate the use of this algorithm in statistics by proposing a Bayesian model that utilizes this sampler for posterior simulation.\n\n\nDavid Dunson. Joint work with Leo Duan at University of Florida."
-  },
-  {
-    "objectID": "abstracts/edtam.html#abstract",
-    "href": "abstracts/edtam.html#abstract",
-    "title": "A Fast Spanning Tree Sampler",
-    "section": "",
-    "text": "Algorithms for sampling random spanning trees are extensively studied in probability and theoretical computer science. Existing samplers, such as the celebrated Aldous-Broder algorithm, can be drastically slowed when the underlying graph has bottlenecks. Researchers often bypass such issues by resorting to approximate samplers or extraneous regularity assumptions.\nI present a novel algorithm that improves upon existing samplers such as Aldous-Broder. This novel sampler is exact and fully general (no regularity assumptions needed). It works well even if the underlying graph has arbitrarily small bottlenecks. I provide both theory and simulations that demonstrate the efficiency of this algorithm. Since I am (nominally) a Bayesian statistician, I illustrate the use of this algorithm in statistics by proposing a Bayesian model that utilizes this sampler for posterior simulation.\n\n\nDavid Dunson. Joint work with Leo Duan at University of Florida."
-  },
-  {
-    "objectID": "abstracts/ireneji.html",
-    "href": "abstracts/ireneji.html",
-    "title": "Bayesian Fault Localization for Software Testing",
-    "section": "",
-    "text": "Fault localization is a software testing activity that is critical when software failures occur. We propose a novel Bayesian fault localization method, yielding a principled and probabilistic ranking of suspicious input combinations for identifying the root causes of failures. We are currently developing methods to use the calculated probabilities for sequential test case generation.\n\n\nSimon Mak"
-  },
-  {
-    "objectID": "abstracts/ireneji.html#abstract",
-    "href": "abstracts/ireneji.html#abstract",
-    "title": "Bayesian Fault Localization for Software Testing",
-    "section": "",
-    "text": "Fault localization is a software testing activity that is critical when software failures occur. We propose a novel Bayesian fault localization method, yielding a principled and probabilistic ranking of suspicious input combinations for identifying the root causes of failures. We are currently developing methods to use the calculated probabilities for sequential test case generation.\n\n\nSimon Mak"
   }
 ]
