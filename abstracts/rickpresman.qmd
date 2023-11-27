@@ -1,0 +1,20 @@
+---
+title: "Constrained Estimation via Projected Mirror Descent"
+author: "Rick Presman"
+date: "Nov 27, 2023"
+---
+
+
+
+
+
+## Abstract 
+
+Constraints on parameter spaces promote various structures in statistical and machine learning tasks. However, they present methodological and computational challenges. These challenges only become more evident in non-Euclidean settings. We advocate for the use of Projected Mirror Descent for constrained online estimation problems in many cases when the parameter space is non-Euclidean. We outline convergence properties of this algorithm and show how it can be connected to other algorithms of interest.
+
+
+
+
+### Advisor(s)
+
+Jason Xu
